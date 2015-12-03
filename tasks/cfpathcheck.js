@@ -8,44 +8,40 @@
 
 'use strict';
 
-module.exports = function (grunt) {
+module.exports = function(grunt) {
 
-  // Please see the Grunt documentation for more information regarding task
-  // creation: http://gruntjs.com/creating-tasks
+	// Please see the Grunt documentation for more information regarding task
+	// creation: http://gruntjs.com/creating-tasks
 
-  grunt.registerMultiTask('cfpathcheck', 'Grunt wrapper for cfpathcheck', function () {
+	grunt.registerMultiTask('cfpathcheck', 'Grunt wrapper for cfpathcheck', function() {
 
-    // Merge task-specific and/or target-specific options with these defaults.
-    var options = this.options({
-      punctuation: '.',
-      separator: ', '
-    });
+		var cfpathcheck = require('cfpathcheck/lib/cfpathcheck');
+		var path = require('path');
 
-    // Iterate over all specified file groups.
-    this.files.forEach(function (file) {
-      // Concat specified files.
-      var src = file.src.filter(function (filepath) {
-        // Warn on and remove invalid source files (if nonull was set).
-        if (!grunt.file.exists(filepath)) {
-          grunt.log.warn('Source file "' + filepath + '" not found.');
-          return false;
-        } else {
-          return true;
-        }
-      }).map(function (filepath) {
-        // Read file source.
-        return grunt.file.read(filepath);
-      }).join(grunt.util.normalizelf(options.separator));
+		// Merge task-specific and/or target-specific options with these defaults.
+		var options = this.options({
+			reporter: 'console',
+			outFile: undefined
+		});
+		var file;
 
-      // Handle options.
-      src += options.punctuation;
+		if (this.filesSrc.length === 1) {
+			file = this.filesSrc[0];
+		}
 
-      // Write the destination file.
-      grunt.file.write(file.dest, src);
+		// Iterate over all specified file groups.
+		if (typeof file !== 'undefined') {
+			var violations = cfpathcheck.check(file, 'json');
+			var output = cfpathcheck.formatter(violations, options.reporter);
 
-      // Print a success message.
-      grunt.log.writeln('File "' + file.dest + '" created.');
-    });
-  });
+			cfpathcheck.writeOutput(output);
+
+			if (options.outFile) {
+				cfpathcheck.writeFile(cfpathcheck.formatter(violations, 'checkstyle'), options.outFile);
+			}
+
+
+		}
+	});
 
 };
