@@ -37,46 +37,46 @@ grunt.initConfig({
 
 ### Options
 
-#### options.separator
+#### options.reporter
 Type: `String`
-Default value: `',  '`
+Default value: `console`
 
-A string value that is used to do something with whatever.
+The preferred reporter style that will be used in stdout.
 
-#### options.punctuation
+#### options.outFile
 Type: `String`
-Default value: `'.'`
+Default value: `undefined`
 
-A string value that is used to do something else with whatever else.
+The path to the desired output file containing the checkstyle-compatible result data.
 
 ### Usage Examples
 
 #### Default Options
-In this example, the default options are used to do something with whatever. So if the `testing` file has the content `Testing` and the `123` file had the content `1 2 3`, the generated result would be `Testing, 1 2 3.`
+In this example, the default options are used to output analysis results to stdout, without saving the results to a file.
 
 ```js
 grunt.initConfig({
   cfpathcheck: {
     options: {},
     files: {
-      'dest/default_options': ['src/testing', 'src/123'],
+      'src': '..'
     },
   },
 })
 ```
 
 #### Custom Options
-In this example, custom options are used to do something else with whatever else. So if the `testing` file has the content `Testing` and the `123` file had the content `1 2 3`, the generated result in this case would be `Testing: 1 2 3 !!!`
+In this example, custom options are used to output checkstyle-compatible xml to stdout and write the results to a file as well.
 
 ```js
 grunt.initConfig({
   cfpathcheck: {
     options: {
-      separator: ': ',
-      punctuation: ' !!!',
+      reporter: 'checkstyle',
+      outFile: 'path/to/results.xml',
     },
     files: {
-      'dest/default_options': ['src/testing', 'src/123'],
+      'src': '..'
     },
   },
 })
