@@ -1,6 +1,6 @@
 {
   "name": "grunt-cfpathcheck",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Grunt wrapper for cfpathcheck",
   "homepage": "https://github.com/timbeadle/grunt-cfpathcheck",
   "repository": "https://github.com/timbeadle/grunt-cfpathcheck",
@@ -14,14 +14,14 @@
   ],
   "main": "Gruntfile.js",
   "engines": {
-    "node": ">= 0.8.0"
+    "node": ">= 0.10.0"
   },
   "license": "MIT",
   "devDependencies": {
     "grunt-contrib-clean": "~0.5.0",
     "grunt-contrib-jshint": "~0.8.0",
     "grunt-contrib-nodeunit": "~0.3.0",
-    "grunt": "~0.4.2",
+    "grunt-release": "^0.13.0",
     "jshint-stylish": "~0.1.5",
     "load-grunt-tasks": "~0.3.0"
   },
@@ -30,5 +30,8 @@
   },
   "dependencies": {
     "cfpathcheck": "^0.6.0"
+  },
+  "peerDependencies": {
+    "grunt": ">=0.4.5"
   }
 }
