@@ -6,17 +6,18 @@
  * Licensed under the MIT license.
  */
 
-'use strict';
+/*global module, require */
 
-module.exports = function(grunt) {
+module.exports = function (grunt) {
+
+	'use strict';
 
 	// Please see the Grunt documentation for more information regarding task
 	// creation: http://gruntjs.com/creating-tasks
 
-	grunt.registerMultiTask('cfpathcheck', 'Grunt wrapper for cfpathcheck', function() {
+	grunt.registerMultiTask('cfpathcheck', 'Grunt wrapper for cfpathcheck', function () {
 
 		var cfpathcheck = require('cfpathcheck/lib/cfpathcheck');
-		var path = require('path');
 
 		// Merge task-specific and/or target-specific options with these defaults.
 		var options = this.options({
