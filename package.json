@@ -1,6 +1,6 @@
 {
   "name": "grunt-cfpathcheck",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Grunt wrapper for cfpathcheck",
   "homepage": "https://github.com/timbeadle/grunt-cfpathcheck",
   "repository": "https://github.com/timbeadle/grunt-cfpathcheck",
@@ -22,7 +22,7 @@
     "grunt-contrib-clean": "^1.0.0",
     "grunt-contrib-nodeunit": "^1.0.0",
     "grunt-release": "^0.13.0",
-	"gruntify-eslint": "^2.0.0",
+    "gruntify-eslint": "^2.0.0",
     "load-grunt-tasks": "^3.4.1"
   },
   "scripts": {
