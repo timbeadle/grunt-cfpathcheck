@@ -18,11 +18,12 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "eslint-plugin-node": "^1.0.0",
     "grunt-contrib-clean": "~0.5.0",
     "grunt-contrib-jshint": "~0.8.0",
     "grunt-contrib-nodeunit": "~0.3.0",
     "grunt-release": "^0.13.0",
-    "jshint-stylish": "~0.1.5",
+	"gruntify-eslint": "^2.0.0",
     "load-grunt-tasks": "~0.3.0"
   },
   "scripts": {
