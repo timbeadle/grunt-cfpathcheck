@@ -21,8 +21,8 @@
     "eslint-plugin-node": "^1.0.0",
     "grunt-contrib-clean": "^1.0.0",
     "grunt-contrib-nodeunit": "^1.0.0",
+    "grunt-eslint": "^18.0.0",
     "grunt-release": "^0.13.0",
-    "gruntify-eslint": "^2.0.0",
     "load-grunt-tasks": "^3.4.1"
   },
   "scripts": {
