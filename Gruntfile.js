@@ -28,6 +28,16 @@ module.exports = function (grunt) {
 			}
 		},
 
+		'release-it': {
+			options: {
+				pkgFiles: ['package.json'],
+				commitMessage: 'Release %s',
+				tagName: '%s',
+				tagAnnotation: 'Release %s',
+				buildCommand: false
+			}
+		},
+
 		// Before generating any new files, remove any previously-created files.
 		clean: {
 			tests: ['tmp']
