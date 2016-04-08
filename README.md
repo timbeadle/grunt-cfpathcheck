@@ -5,8 +5,9 @@
 [![npm version](https://img.shields.io/npm/v/grunt-cfpathcheck.svg)](https://www.npmjs.com/package/grunt-cfpathcheck)
 [![Downloads/month](https://img.shields.io/npm/dm/grunt-cfpathcheck.svg)](https://www.npmjs.com/package/grunt-cfpathcheck)
 [![Build Status](https://travis-ci.org/timbeadle/grunt-cfpathcheck.svg?branch=master)](https://travis-ci.org/timbeadle/grunt-cfpathcheck)
-[![Code Climate](https://codeclimate.com/github/timbeadle/grunt-cfpathcheck/badges/gpa.svg)](https://codeclimate.com/github/timbeadle/grunt-cfpathcheck)
 [![Dependency Status](https://david-dm.org/timbeadle/grunt-cfpathcheck.svg)](https://david-dm.org/timbeadle/grunt-cfpathcheck)
+[![devDependency Status](https://david-dm.org/timbeadle/grunt-cfpathcheck/dev-status.svg)](https://david-dm.org/timbeadle/grunt-cfpathcheck#info=devDependencies)
+[![Code Climate](https://codeclimate.com/github/timbeadle/grunt-cfpathcheck/badges/gpa.svg)](https://codeclimate.com/github/timbeadle/grunt-cfpathcheck)
 
 ## Getting Started
 This plugin requires Grunt.
