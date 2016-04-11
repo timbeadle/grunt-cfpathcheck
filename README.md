@@ -1,6 +1,6 @@
 # grunt-cfpathcheck
 
-> Grunt wrapper for cfpathcheck
+> Grunt wrapper for [cfpathcheck](https://github.com/timbeadle/cfpathcheck)
 
 [![npm version](https://img.shields.io/npm/v/grunt-cfpathcheck.svg)](https://www.npmjs.com/package/grunt-cfpathcheck)
 [![Downloads/month](https://img.shields.io/npm/dm/grunt-cfpathcheck.svg)](https://www.npmjs.com/package/grunt-cfpathcheck)
@@ -8,6 +8,12 @@
 [![Dependency Status](https://david-dm.org/timbeadle/grunt-cfpathcheck.svg)](https://david-dm.org/timbeadle/grunt-cfpathcheck)
 [![devDependency Status](https://david-dm.org/timbeadle/grunt-cfpathcheck/dev-status.svg)](https://david-dm.org/timbeadle/grunt-cfpathcheck#info=devDependencies)
 [![Code Climate](https://codeclimate.com/github/timbeadle/grunt-cfpathcheck/badges/gpa.svg)](https://codeclimate.com/github/timbeadle/grunt-cfpathcheck)
+
+## About grunt-cfpathcheck
+
+[cfpathcheck](https://github.com/timbeadle/cfpathcheck) is a static code analysis utility for finding incorrect/missing file paths and unused imported taglib namespaces in cfml (Adobe ColdFusion/Lucee/Railo/OpenBD) files.
+
+The grunt-cfpathcheck plugin for grunt integrates this analysis into the grunt process.
 
 ## Getting Started
 This plugin requires Grunt.
