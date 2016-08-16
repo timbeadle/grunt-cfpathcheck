@@ -22,7 +22,7 @@
     "eslint-plugin-node": "^1.0.0",
     "grunt-contrib-clean": "^1.0.0",
     "grunt-contrib-nodeunit": "^1.0.0",
-    "grunt-eslint": "^18.0.0",
+    "grunt-eslint": "^19.0.0",
     "grunt-release-it": "^1.0.1",
     "load-grunt-tasks": "^3.5.2"
   },
