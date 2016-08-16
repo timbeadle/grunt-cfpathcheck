@@ -24,7 +24,7 @@
     "grunt-contrib-nodeunit": "^1.0.0",
     "grunt-eslint": "^18.0.0",
     "grunt-release-it": "^1.0.1",
-    "load-grunt-tasks": "^3.4.1"
+    "load-grunt-tasks": "^3.5.2"
   },
   "scripts": {
     "test": "grunt test"
