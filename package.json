@@ -30,7 +30,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "cfpathcheck": "^0.7.0"
+    "cfpathcheck": "^1.0.0"
   },
   "peerDependencies": {
     "grunt": ">=0.4.5"
