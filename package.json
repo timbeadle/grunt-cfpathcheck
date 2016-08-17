@@ -1,6 +1,6 @@
 {
   "name": "grunt-cfpathcheck",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Grunt wrapper for cfpathcheck",
   "homepage": "https://github.com/timbeadle/grunt-cfpathcheck",
   "repository": "https://github.com/timbeadle/grunt-cfpathcheck",
