@@ -1,6 +1,6 @@
 {
   "name": "grunt-cfpathcheck",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Grunt wrapper for cfpathcheck",
   "homepage": "https://github.com/timbeadle/grunt-cfpathcheck",
   "repository": "https://github.com/timbeadle/grunt-cfpathcheck",
@@ -30,7 +30,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "cfpathcheck": "^1.1.1"
+    "cfpathcheck": "^1.2.0"
   },
   "peerDependencies": {
     "grunt": ">=0.4.5"
