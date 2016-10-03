@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.0.1] - 2016-08-19
+### Updated
+- cfpathcheck@1.1.1
+
 ## [1.0.0] - 2016-08-17
 ### Added
 - CHANGELOG.md (this file)
@@ -26,6 +30,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - TravisCI build badge.
 
+[1.0.1]: https://github.com/timbeadle/grunt-cfpathcheck/compare/1.0.0...1.0.1
 [1.0.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/0.6.0...1.0.0
 [0.6.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/0.5.0...0.6.0
 [0.5.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/0.4.0...0.5.0
