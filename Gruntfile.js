@@ -24,7 +24,7 @@ module.exports = function (grunt) {
 				'<%= nodeunit.tests %>'
 			],
 			options: {
-				configFile: '.eslintrc'
+				configFile: '.eslintrc.yml'
 			}
 		},
 
