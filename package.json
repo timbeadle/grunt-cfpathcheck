@@ -19,7 +19,7 @@
   "license": "MIT",
   "devDependencies": {
     "eslint-plugin-jsdoc": "^2.4.0",
-    "eslint-plugin-node": "^4.0.0",
+    "eslint-plugin-node": "^4.2.1",
     "grunt-contrib-clean": "^1.0.0",
     "grunt-contrib-nodeunit": "^1.0.0",
     "grunt-eslint": "^19.0.0",
