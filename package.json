@@ -14,7 +14,7 @@
   ],
   "main": "Gruntfile.js",
   "engines": {
-    "node": ">=4"
+    "node": ">=6"
   },
   "license": "MIT",
   "devDependencies": {
