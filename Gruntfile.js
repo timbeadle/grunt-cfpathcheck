@@ -16,13 +16,6 @@ module.exports = function(grunt) {
 
   // Project configuration.
   grunt.initConfig({
-    eslint: {
-      src: ["Gruntfile.js", "tasks/*.js", "<%= nodeunit.tests %>"],
-      options: {
-        configFile: ".eslintrc.yml"
-      }
-    },
-
     "release-it": {
       options: {
         pkgFiles: ["package.json"],
