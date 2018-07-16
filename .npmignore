@@ -3,8 +3,6 @@
 .gitmodules
 .travis.yml
 .eslintrc
-bower.json
-Gruntfile.js
 
 /.idea
 /node_modules
