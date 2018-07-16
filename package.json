@@ -18,23 +18,23 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^5.0.0",
+    "eslint": "^5.1.0",
     "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-jsdoc": "^3.7.0",
+    "eslint-plugin-jsdoc": "^3.7.1",
     "eslint-plugin-node": "^6.0.1",
     "grunt": "^1.0.3",
     "grunt-contrib-clean": "^1.1.0",
     "grunt-contrib-nodeunit": "^2.0.0",
     "grunt-release-it": "^1.0.1",
     "load-grunt-tasks": "^4.0.0",
-    "prettier": "^1.12.1"
+    "prettier": "^1.13.7"
   },
   "scripts": {
     "lint": "eslint --config .eslintrc.yml Gruntfile.js tasks/cfpathcheck.js",
     "test": "npm run lint"
   },
   "dependencies": {
-    "cfpathcheck": "^1.5.0"
+    "cfpathcheck": "^2.0.0"
   },
   "peerDependencies": {
     "grunt": ">=0.4.5"
