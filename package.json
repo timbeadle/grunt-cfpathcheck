@@ -34,7 +34,7 @@
     "test": "npm run lint"
   },
   "dependencies": {
-    "cfpathcheck": "^1.5.0"
+    "cfpathcheck": "^2.0.0"
   },
   "peerDependencies": {
     "grunt": ">=0.4.5"
