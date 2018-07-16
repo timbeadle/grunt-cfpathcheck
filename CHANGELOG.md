@@ -2,6 +2,23 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.0.0] - 2018-07-16
+### Added
+- node_js version 10 support in .travis.yml
+- some es6 syntax features (arrow functions, let & const)
+
+### Updated
+- cfpathcheck@2.0.0
+- eslint@5.1.0
+- eslint-config-prettier@2.9.0
+- eslint-plugin-jsdoc@3.7.1
+- eslint-plugin-node@6.0.1
+- prettier@1.13.7
+
+### Removed
+- node_js 4 & 5 support - minimum supported version is now 6
+- grunt & plugins
+
 ## [1.2.0] - 2017-11-21
 ### Added
 - node_js versions 8 and 9 support in .travis.yml
@@ -59,6 +76,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ### Added
 - TravisCI build badge.
 
+[2.0.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/1.2.0...2.0.0
 [1.2.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/1.1.1...1.2.0
 [1.1.1]: https://github.com/timbeadle/grunt-cfpathcheck/compare/1.1.0...1.1.1
 [1.1.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/1.0.1...1.1.0
