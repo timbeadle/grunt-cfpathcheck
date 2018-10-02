@@ -8,6 +8,12 @@
     - 'jsdoc'
     - 'node'
   rules:
+    linebreak-style:
+      - error
+      - unix
+    quotes:
+      - error
+      - single
     node/no-missing-import: 2
     node/no-missing-require: 2
     node/no-unpublished-import: 2
