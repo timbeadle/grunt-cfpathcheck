@@ -23,11 +23,12 @@
     "eslint-plugin-jsdoc": "^3.8.0",
     "eslint-plugin-node": "^8.0.0",
     "eslint-plugin-prettier": "^3.0.0",
-    "prettier": "^1.14.2"
+    "prettier": "^1.14.2",
+    "snyk": "^1.108.2"
   },
   "scripts": {
     "lint": "eslint --config .eslintrc.yml tasks/cfpathcheck.js",
-    "test": "npm run lint"
+    "test": "snyk test && npm run lint"
   },
   "dependencies": {
     "cfpathcheck": "^2.0.0"
