@@ -28,7 +28,7 @@
   },
   "scripts": {
     "lint": "eslint --config .eslintrc.yml tasks/cfpathcheck.js",
-    "test": "snyk test && npm run lint"
+    "test": "snyk test --dev && npm run lint"
   },
   "dependencies": {
     "cfpathcheck": "^2.0.0"
