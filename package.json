@@ -18,13 +18,13 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^5.11.1",
+    "eslint": "^5.13.0",
     "eslint-config-prettier": "^4.0.0",
     "eslint-plugin-jsdoc": "^4.1.0",
     "eslint-plugin-node": "^8.0.0",
     "eslint-plugin-prettier": "^3.0.1",
     "prettier": "^1.15.3",
-    "snyk": "^1.121.1"
+    "snyk": "^1.124.1"
   },
   "scripts": {
     "lint": "eslint --config .eslintrc.yml tasks/cfpathcheck.js",
