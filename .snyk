@@ -1,4 +1,67 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
 version: v1.13.3
-ignore: {}
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  SNYK-JS-LODASH-73638:
+    - eslint > lodash:
+        reason: None given
+        expires: '2019-03-07T21:17:29.619Z'
+    - snyk > lodash:
+        reason: None given
+        expires: '2019-03-07T21:17:29.619Z'
+    - snyk > @snyk/dep-graph > lodash:
+        reason: None given
+        expires: '2019-03-07T21:17:29.619Z'
+    - snyk > inquirer > lodash:
+        reason: None given
+        expires: '2019-03-07T21:17:29.619Z'
+    - snyk > snyk-config > lodash:
+        reason: None given
+        expires: '2019-03-07T21:17:29.619Z'
+    - snyk > snyk-php-plugin > lodash:
+        reason: None given
+        expires: '2019-03-07T21:17:29.619Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        reason: None given
+        expires: '2019-03-07T21:17:29.619Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        reason: None given
+        expires: '2019-03-07T21:17:29.619Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        reason: None given
+        expires: '2019-03-07T21:17:29.619Z'
+    - snyk > snyk-nuget-plugin > lodash:
+        reason: None given
+        expires: '2019-03-07T21:17:29.619Z'
+  SNYK-JS-LODASH-73639:
+    - eslint > lodash:
+        reason: None given
+        expires: '2019-03-07T21:17:29.619Z'
+    - snyk > lodash:
+        reason: None given
+        expires: '2019-03-07T21:17:29.619Z'
+    - snyk > @snyk/dep-graph > lodash:
+        reason: None given
+        expires: '2019-03-07T21:17:29.619Z'
+    - snyk > inquirer > lodash:
+        reason: None given
+        expires: '2019-03-07T21:17:29.619Z'
+    - snyk > snyk-config > lodash:
+        reason: None given
+        expires: '2019-03-07T21:17:29.619Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        reason: None given
+        expires: '2019-03-07T21:17:29.619Z'
+    - snyk > snyk-nuget-plugin > lodash:
+        reason: None given
+        expires: '2019-03-07T21:17:29.619Z'
+    - snyk > snyk-php-plugin > lodash:
+        reason: None given
+        expires: '2019-03-07T21:17:29.619Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        reason: None given
+        expires: '2019-03-07T21:17:29.619Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        reason: None given
+        expires: '2019-03-07T21:17:29.619Z'
 patch: {}
