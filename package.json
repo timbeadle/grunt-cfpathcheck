@@ -31,6 +31,6 @@
     "test": "snyk test --dev && npm run lint"
   },
   "dependencies": {
-    "cfpathcheck": "^2.0.0"
+    "cfpathcheck": "^2.0.1"
   }
 }
