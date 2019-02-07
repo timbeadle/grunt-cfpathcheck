@@ -18,7 +18,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^5.11.1",
+    "eslint": "^5.13.0",
     "eslint-config-prettier": "^4.0.0",
     "eslint-plugin-jsdoc": "^3.15.1",
     "eslint-plugin-node": "^8.0.0",
@@ -31,6 +31,6 @@
     "test": "snyk test --dev && npm run lint"
   },
   "dependencies": {
-    "cfpathcheck": "^2.0.0"
+    "cfpathcheck": "^2.0.1"
   }
 }
