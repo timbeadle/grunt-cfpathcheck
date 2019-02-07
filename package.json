@@ -24,7 +24,7 @@
     "eslint-plugin-node": "^8.0.0",
     "eslint-plugin-prettier": "^3.0.1",
     "prettier": "^1.15.3",
-    "snyk": "^1.124.1"
+    "snyk": "^1.126.0"
   },
   "scripts": {
     "lint": "eslint --config .eslintrc.yml tasks/cfpathcheck.js",
