@@ -2,6 +2,23 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.0.1] - 2019-02-11
+### Added
+- Snyk monitoring
+- DepShield badge
+- node 11 support in .travis.yml
+- eslint-plugin-prettier
+
+### Updated
+- eslint: rules tweaked to extend prettier, with overrides
+- eslint@5.13.0
+- eslint-config-prettier@4.0.0
+- eslint-plugin-jsdoc@4.1.0
+- eslint-plugin-node@8.0.1
+- eslint-plugin-prettier@3.0.1
+- prettier@1.16.4
+
+
 ## [2.0.0] - 2018-07-16
 ### Added
 - node_js version 10 support in .travis.yml
@@ -76,6 +93,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ### Added
 - TravisCI build badge.
 
+[2.0.1]: https://github.com/timbeadle/grunt-cfpathcheck/compare/2.0.0...2.0.1
 [2.0.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/1.2.0...2.0.0
 [1.2.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/1.1.1...1.2.0
 [1.1.1]: https://github.com/timbeadle/grunt-cfpathcheck/compare/1.1.0...1.1.1
