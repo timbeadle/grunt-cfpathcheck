@@ -9,6 +9,7 @@
 [![devDependency Status](https://david-dm.org/timbeadle/grunt-cfpathcheck/dev-status.svg)](https://david-dm.org/timbeadle/grunt-cfpathcheck#info=devDependencies)
 [![Code Climate](https://codeclimate.com/github/timbeadle/grunt-cfpathcheck/badges/gpa.svg)](https://codeclimate.com/github/timbeadle/grunt-cfpathcheck)
 [![DepShield Badge](https://depshield.sonatype.org/badges/timbeadle/grunt-cfpathcheck/depshield.svg)](https://depshield.github.io)
+[![Known Vulnerabilities](https://snyk.io/test/github/timbeadle/grunt-cfpathcheck/badge.svg)](https://snyk.io/test/github/timbeadle/grunt-cfpathcheck)
 
 ## About grunt-cfpathcheck
 
