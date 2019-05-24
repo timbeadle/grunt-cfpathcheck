@@ -32,10 +32,5 @@
   },
   "dependencies": {
     "cfpathcheck": "^3.0.1"
-  },
-  "greenkeeper": {
-    "ignore": [
-      "eslint-plugin-node"
-    ]
   }
 }
