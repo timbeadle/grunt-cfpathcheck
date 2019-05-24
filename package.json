@@ -31,7 +31,7 @@
     "test": "snyk test --dev && npm run lint"
   },
   "dependencies": {
-    "cfpathcheck": "^2.0.1"
+    "cfpathcheck": "^3.0.1"
   },
   "greenkeeper": {
     "ignore": [
