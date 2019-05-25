@@ -2,6 +2,23 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [3.0.0] - 2019-05-25
+### Added
+- Snyk badge
+
+### Updated
+- cfpathcheck@3.0.2
+- eslint@5.16.0
+- eslint-config-prettier@4.3.0
+- eslint-plugin-jsdoc@7.0.2
+- eslint-plugin-node@9.1.0
+- eslint-plugin-prettier@3.1.0
+- prettier@1.17.1
+- snyk@1.167.2
+
+### Removed
+- node_js 6 and 7 support - minimum supported version is now 8
+
 ## [2.0.1] - 2019-02-11
 ### Added
 - Snyk monitoring
@@ -93,6 +110,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ### Added
 - TravisCI build badge.
 
+[3.0.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/2.0.1...3.0.0
 [2.0.1]: https://github.com/timbeadle/grunt-cfpathcheck/compare/2.0.0...2.0.1
 [2.0.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/1.2.0...2.0.0
 [1.2.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/1.1.1...1.2.0
