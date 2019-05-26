@@ -2,6 +2,9 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [3.0.1] - 2019-05-26
+### Updated
+
 ## [3.0.0] - 2019-05-25
 ### Added
 - Snyk badge
@@ -110,6 +113,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ### Added
 - TravisCI build badge.
 
+[3.0.1]: https://github.com/timbeadle/grunt-cfpathcheck/compare/3.0.0...3.0.1
 [3.0.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/2.0.1...3.0.0
 [2.0.1]: https://github.com/timbeadle/grunt-cfpathcheck/compare/2.0.0...2.0.1
 [2.0.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/1.2.0...2.0.0
