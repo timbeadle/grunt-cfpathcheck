@@ -4,6 +4,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [3.0.1] - 2019-05-26
 ### Updated
+- cfpathcheck@3.0.3
 
 ## [3.0.0] - 2019-05-25
 ### Added
