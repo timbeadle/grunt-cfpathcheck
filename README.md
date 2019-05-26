@@ -104,4 +104,4 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 See [CHANGELOG](https://github.com/timbeadle/grunt-cfpathcheck/blob/master/CHANGELOG.md).
 
 ## License
-Copyright (c) 2015 Tim Beadle. Licensed under the MIT license.
+Copyright (c) 2015-2019 Tim Beadle. Licensed under the MIT license.
