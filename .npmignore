@@ -1,10 +1,16 @@
-.npmignore
+.editorconfig
+.eslintignore
+.eslintrc.yml
 .gitignore
+.gitattributes
+.npmignore
 .gitmodules
+.snyk
 .travis.yml
-.eslintrc
+.DS_Store
 
 /.idea
+/.vscode
 /node_modules
 /test
 /*.tgz
