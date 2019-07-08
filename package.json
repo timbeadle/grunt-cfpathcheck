@@ -19,18 +19,21 @@
   "license": "MIT",
   "devDependencies": {
     "eslint": "^6.0.1",
-    "eslint-config-prettier": "^4.3.0",
-    "eslint-plugin-jsdoc": "^7.2.3",
+    "eslint-config-prettier": "^5.0.0",
+    "eslint-plugin-jsdoc": "^14.0.0",
     "eslint-plugin-node": "^9.1.0",
     "eslint-plugin-prettier": "^3.1.0",
-    "prettier": "^1.17.1",
-    "snyk": "^1.167.2"
+    "prettier": "^1.17.1"
   },
   "scripts": {
     "lint": "eslint --config .eslintrc.yml tasks/cfpathcheck.js",
-    "test": "snyk test --dev && npm run lint"
+    "test": "snyk test --dev && npm run lint",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
-    "cfpathcheck": "^3.0.3"
-  }
+    "cfpathcheck": "^3.0.3",
+    "snyk": "^1.192.3"
+  },
+  "snyk": true
 }
