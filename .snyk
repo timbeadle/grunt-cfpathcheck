@@ -17,16 +17,10 @@ patch:
   SNYK-JS-LODASH-450202:
     - cfpathcheck > lodash:
         patched: '2019-07-08T08:16:11.469Z'
-      '@snyk/dep-graph > lodash':
-        patched: '2019-07-10T20:18:54.470Z'
     - eslint-plugin-jsdoc > lodash:
         patched: '2019-07-08T08:16:11.469Z'
-      '@snyk/dep-graph > graphlib > lodash':
-        patched: '2019-07-10T20:18:54.470Z'
     - eslint > lodash:
         patched: '2019-07-08T08:16:11.469Z'
-      '@snyk/composer-lockfile-parser > lodash':
-        patched: '2019-07-10T20:18:54.470Z'
     - snyk > snyk-config > lodash:
         patched: '2019-07-08T08:16:11.469Z'
     - eslint > table > lodash:
@@ -53,3 +47,9 @@ patch:
         patched: '2019-07-08T08:16:11.469Z'
     - snyk > @snyk/dep-graph > lodash:
         patched: '2019-07-08T08:16:11.469Z'
+    - '@snyk/dep-graph > lodash':
+        patched: '2019-07-10T20:18:54.470Z'
+    - '@snyk/dep-graph > graphlib > lodash':
+        patched: '2019-07-10T20:18:54.470Z'
+    - '@snyk/composer-lockfile-parser > lodash':
+        patched: '2019-07-10T20:18:54.470Z'
