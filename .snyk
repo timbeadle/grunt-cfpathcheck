@@ -17,26 +17,36 @@ patch:
   SNYK-JS-LODASH-450202:
     - cfpathcheck > lodash:
         patched: '2019-07-08T08:16:11.469Z'
-      '@snyk/dep-graph > lodash':
-        patched: '2019-07-10T20:18:54.470Z'
+      cfpathcheck > snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2019-07-10T21:47:44.832Z'
     - eslint-plugin-jsdoc > lodash:
         patched: '2019-07-08T08:16:11.469Z'
-      '@snyk/dep-graph > graphlib > lodash':
-        patched: '2019-07-10T20:18:54.470Z'
+      cfpathcheck > snyk > inquirer > lodash:
+        patched: '2019-07-10T21:47:44.832Z'
     - eslint > lodash:
         patched: '2019-07-08T08:16:11.469Z'
-      '@snyk/composer-lockfile-parser > lodash':
-        patched: '2019-07-10T20:18:54.470Z'
+      cfpathcheck > snyk > @snyk/dep-graph > lodash:
+        patched: '2019-07-10T21:47:44.832Z'
     - snyk > snyk-config > lodash:
         patched: '2019-07-08T08:16:11.469Z'
+      cfpathcheck > snyk > snyk-config > lodash:
+        patched: '2019-07-10T21:47:44.832Z'
     - eslint > table > lodash:
         patched: '2019-07-08T08:16:11.469Z'
+      cfpathcheck > snyk > snyk-nuget-plugin > lodash:
+        patched: '2019-07-10T21:47:44.832Z'
     - snyk > snyk-nuget-plugin > lodash:
         patched: '2019-07-08T08:16:11.469Z'
+      cfpathcheck > snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2019-07-10T21:47:44.832Z'
     - snyk > snyk-nodejs-lockfile-parser > lodash:
         patched: '2019-07-08T08:16:11.469Z'
+      cfpathcheck > snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2019-07-10T21:47:44.832Z'
     - eslint > inquirer > lodash:
         patched: '2019-07-08T08:16:11.469Z'
+      cfpathcheck > snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2019-07-10T21:47:44.832Z'
     - snyk > lodash:
         patched: '2019-07-08T08:16:11.469Z'
     - snyk > inquirer > lodash:
@@ -53,3 +63,9 @@ patch:
         patched: '2019-07-08T08:16:11.469Z'
     - snyk > @snyk/dep-graph > lodash:
         patched: '2019-07-08T08:16:11.469Z'
+    - '@snyk/dep-graph > lodash':
+        patched: '2019-07-10T20:18:54.470Z'
+    - '@snyk/dep-graph > graphlib > lodash':
+        patched: '2019-07-10T20:18:54.470Z'
+    - '@snyk/composer-lockfile-parser > lodash':
+        patched: '2019-07-10T20:18:54.470Z'
