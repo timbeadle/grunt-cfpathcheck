@@ -69,3 +69,12 @@ patch:
         patched: '2019-07-10T21:47:44.832Z'
     - cfpathcheck > snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
         patched: '2019-07-10T21:47:44.832Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-03T20:41:29.334Z'
+    - cfpathcheck > snyk > proxy-agent > https-proxy-agent:
+        patched: '2019-10-03T20:41:29.334Z'
+    - cfpathcheck > snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-03T20:41:29.334Z'
+    - snyk > proxy-agent > https-proxy-agent:
+        patched: '2019-10-03T20:41:29.334Z'
