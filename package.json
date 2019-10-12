@@ -18,11 +18,11 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^6.3.0",
-    "eslint-config-prettier": "^6.2.0",
-    "eslint-plugin-jsdoc": "^15.9.8",
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-jsdoc": "^15.11.0",
     "eslint-plugin-node": "^10.0.0",
-    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-prettier": "^3.1.1",
     "prettier": "^1.18.2"
   },
   "scripts": {
@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "cfpathcheck": "^3.0.5",
-    "snyk": "^1.230.5"
+    "snyk": "^1.234.2"
   },
   "snyk": true
 }
