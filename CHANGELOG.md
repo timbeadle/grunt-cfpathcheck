@@ -2,6 +2,15 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [3.0.3] - 2019-10-13
+### Updated
+- cfpathcheck@3.0.6
+- eslint@6.5.1
+- eslint-config-prettier@6.4.0
+- eslint-plugin-jsdoc@15.11.0
+- eslint-plugin-prettier@3.1.1
+- snyk@1.234.2
+
 ## [3.0.2] - 2019-09-06
 ### Added
 - .codeclimate.yml to .npmignore
@@ -129,6 +138,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ### Added
 - TravisCI build badge.
 
+[3.0.3]: https://github.com/timbeadle/grunt-cfpathcheck/compare/3.0.2...3.0.3
 [3.0.2]: https://github.com/timbeadle/grunt-cfpathcheck/compare/3.0.1...3.0.2
 [3.0.1]: https://github.com/timbeadle/grunt-cfpathcheck/compare/3.0.0...3.0.1
 [3.0.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/2.0.1...3.0.0
