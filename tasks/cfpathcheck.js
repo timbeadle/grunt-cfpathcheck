@@ -1,13 +1,10 @@
 /*
- * grunt-cfpathcheck
+ * Grunt wrapper for cfpathcheck - grunt-cfpathcheck
  * https://github.com/timbeadle/grunt-cfpathcheck
  *
  * Copyright (c) 2015 Tim Beadle
  * Licensed under the MIT license.
  */
-
-/*global module, require */
-/*eslint-env es6 */
 
 module.exports = (grunt) => {
 
