@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.5
+version: v1.14.0
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   SNYK-JS-SETVALUE-450213:
@@ -78,3 +78,8 @@ patch:
         patched: '2019-10-03T20:41:29.334Z'
     - snyk > proxy-agent > https-proxy-agent:
         patched: '2019-10-03T20:41:29.334Z'
+  SNYK-JS-TREEKILL-536781:
+    - snyk > snyk-sbt-plugin > tree-kill:
+        patched: '2019-12-11T22:04:57.186Z'
+    - cfpathcheck > snyk > snyk-sbt-plugin > tree-kill:
+        patched: '2019-12-11T22:04:57.186Z'
