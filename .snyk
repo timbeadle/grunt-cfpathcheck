@@ -15,7 +15,7 @@ ignore:
   SNYK-JS-DOTPROP-543489:
     - xo > update-notifier > configstore > dot-prop:
         reason: None given
-        expires: '2020-03-01T18:42:06.265Z'
+        expires: '2020-03-02T10:01:40.182Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   SNYK-JS-LODASH-450202:
