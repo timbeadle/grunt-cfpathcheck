@@ -12,6 +12,10 @@ ignore:
     - cfpathcheck > verbalize > log-events > union-value > set-value:
         reason: None given
         expires: '2019-09-13T17:05:35.948Z'
+  SNYK-JS-DOTPROP-543489:
+    - xo > update-notifier > configstore > dot-prop:
+        reason: None given
+        expires: '2020-03-02T10:01:40.182Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   SNYK-JS-LODASH-450202:
