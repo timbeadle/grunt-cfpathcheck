@@ -14,12 +14,12 @@
   ],
   "main": "Gruntfile.js",
   "engines": {
-    "node": ">=8"
+    "node": ">=10"
   },
   "license": "MIT",
   "devDependencies": {
     "prettier": "^1.19.1",
-    "xo": "^0.25.3"
+    "xo": "^0.26.1"
   },
   "scripts": {
     "test": "npm run test:snyk && npm run test:lint",
