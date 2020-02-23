@@ -2,6 +2,20 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [4.0.0] - 2020-02-23
+### Added
+- xo linter
+- node_js 13 support
+
+### Updated
+- cfpathcheck@4.0.0
+- prettier@1.19.1
+- snyk@1.296.0
+
+### Removed
+- eslint
+- node_js 8 and 9 support
+
 ## [3.0.3] - 2019-10-13
 ### Updated
 - cfpathcheck@3.0.6
