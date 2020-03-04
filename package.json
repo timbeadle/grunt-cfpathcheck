@@ -19,18 +19,19 @@
   "license": "MIT",
   "devDependencies": {
     "prettier": "^1.19.1",
-    "xo": "^0.26.1"
+    "xo": "^0.27.2"
   },
   "scripts": {
     "test": "npm run test:snyk && npm run test:lint",
+    "test:ci": "npm run test:lint",
     "test:lint": "xo tasks/cfpathcheck.js",
     "test:snyk": "snyk test --dev",
     "snyk-protect": "snyk protect",
     "prepare": "npm run snyk-protect"
   },
   "dependencies": {
-    "cfpathcheck": "^3.1.0",
-    "snyk": "^1.297.3"
+    "cfpathcheck": "^4.0.0",
+    "snyk": "^1.297.4"
   },
   "snyk": true,
   "xo": {
