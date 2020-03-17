@@ -16,6 +16,65 @@ ignore:
     - xo > update-notifier > configstore > dot-prop:
         reason: None given
         expires: '2020-03-02T10:01:40.182Z'
+  SNYK-JS-MINIMIST-559764:
+    - cfpathcheck > minimist:
+        reason: None given
+        expires: '2020-04-16T11:55:44.285Z'
+      xo > update-notifier > latest-version > package-json > registry-auth-token > rc > minimist:
+        reason: None given
+        expires: '2020-04-16T11:59:43.377Z'
+    - cfpathcheck > crlf > glub > minimist:
+        reason: None given
+        expires: '2020-04-16T11:55:44.285Z'
+      xo > update-notifier > latest-version > package-json > registry-url > rc > minimist:
+        reason: None given
+        expires: '2020-04-16T11:59:43.377Z'
+    - snyk > @snyk/update-notifier > latest-version > package-json > registry-auth-token > rc > minimist:
+        reason: None given
+        expires: '2020-04-16T11:55:44.285Z'
+      cfpathcheck > minimist:
+        reason: None given
+        expires: '2020-04-16T11:59:43.377Z'
+    - snyk > @snyk/update-notifier > latest-version > package-json > registry-url > rc > minimist:
+        reason: None given
+        expires: '2020-04-16T11:55:44.285Z'
+      cfpathcheck > crlf > glub > minimist:
+        reason: None given
+        expires: '2020-04-16T11:59:43.377Z'
+    - cfpathcheck > snyk > @snyk/update-notifier > latest-version > package-json > registry-auth-token > rc > minimist:
+        reason: None given
+        expires: '2020-04-16T11:55:44.285Z'
+      snyk > @snyk/update-notifier > latest-version > package-json > registry-auth-token > rc > minimist:
+        reason: None given
+        expires: '2020-04-16T11:59:43.377Z'
+    - cfpathcheck > snyk > @snyk/update-notifier > latest-version > package-json > registry-url > rc > minimist:
+        reason: None given
+        expires: '2020-04-16T11:55:44.285Z'
+      snyk > @snyk/update-notifier > latest-version > package-json > registry-url > rc > minimist:
+        reason: None given
+        expires: '2020-04-16T11:59:43.377Z'
+    - xo > eslint > mkdirp > minimist:
+        reason: None given
+        expires: '2020-04-16T11:55:44.285Z'
+      cfpathcheck > snyk > @snyk/update-notifier > latest-version > package-json > registry-auth-token > rc > minimist:
+        reason: None given
+        expires: '2020-04-16T11:59:43.377Z'
+    - xo > eslint > file-entry-cache > flat-cache > write > mkdirp > minimist:
+        reason: None given
+        expires: '2020-04-16T11:55:44.285Z'
+      cfpathcheck > snyk > @snyk/update-notifier > latest-version > package-json > registry-url > rc > minimist:
+        reason: None given
+        expires: '2020-04-16T11:59:43.377Z'
+    - xo > eslint > mkdirp > minimist:
+        reason: None given
+        expires: '2020-04-16T11:59:43.377Z'
+    - xo > eslint > file-entry-cache > flat-cache > write > mkdirp > minimist:
+        reason: None given
+        expires: '2020-04-16T11:59:43.377Z'
+  SNYK-JS-YARGSPARSER-560381:
+    - xo > meow > yargs-parser:
+        reason: None given
+        expires: '2020-04-16T11:59:43.377Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   SNYK-JS-LODASH-450202:
