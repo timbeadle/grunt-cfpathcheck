@@ -20,61 +20,61 @@ ignore:
     - cfpathcheck > minimist:
         reason: None given
         expires: '2020-04-16T11:55:44.285Z'
-      xo > update-notifier > latest-version > package-json > registry-auth-token > rc > minimist:
+    - cfpathcheck > crlf > glub > minimist:
+        reason: None given
+        expires: '2020-04-16T11:55:44.285Z'
+    - snyk > @snyk/update-notifier > latest-version > package-json > registry-auth-token > rc > minimist:
+        reason: None given
+        expires: '2020-04-16T11:55:44.285Z'
+    - snyk > @snyk/update-notifier > latest-version > package-json > registry-url > rc > minimist:
+        reason: None given
+        expires: '2020-04-16T11:55:44.285Z'
+    - cfpathcheck > snyk > @snyk/update-notifier > latest-version > package-json > registry-auth-token > rc > minimist:
+        reason: None given
+        expires: '2020-04-16T11:55:44.285Z'
+    - cfpathcheck > snyk > @snyk/update-notifier > latest-version > package-json > registry-url > rc > minimist:
+        reason: None given
+        expires: '2020-04-16T11:55:44.285Z'
+    - xo > eslint > mkdirp > minimist:
+        reason: None given
+        expires: '2020-04-16T11:55:44.285Z'
+    - xo > eslint > file-entry-cache > flat-cache > write > mkdirp > minimist:
+        reason: None given
+        expires: '2020-04-16T11:55:44.285Z'
+    - xo > eslint > mkdirp > minimist:
+        reason: None given
+        expires: '2020-04-16T11:59:43.377Z'
+    - xo > eslint > file-entry-cache > flat-cache > write > mkdirp > minimist:
+        reason: None given
+        expires: '2020-04-16T11:59:43.377Z'
+    - xo > update-notifier > latest-version > package-json > registry-auth-token > rc > minimist:
+        reason: None given
+        expires: '2020-04-16T11:59:43.377Z'
+    - xo > update-notifier > latest-version > package-json > registry-url > rc > minimist:
+        reason: None given
+        expires: '2020-04-16T11:59:43.377Z'
+    - cfpathcheck > minimist:
         reason: None given
         expires: '2020-04-16T11:59:43.377Z'
     - cfpathcheck > crlf > glub > minimist:
         reason: None given
-        expires: '2020-04-16T11:55:44.285Z'
-      xo > update-notifier > latest-version > package-json > registry-url > rc > minimist:
-        reason: None given
         expires: '2020-04-16T11:59:43.377Z'
     - snyk > @snyk/update-notifier > latest-version > package-json > registry-auth-token > rc > minimist:
-        reason: None given
-        expires: '2020-04-16T11:55:44.285Z'
-      cfpathcheck > minimist:
         reason: None given
         expires: '2020-04-16T11:59:43.377Z'
     - snyk > @snyk/update-notifier > latest-version > package-json > registry-url > rc > minimist:
         reason: None given
-        expires: '2020-04-16T11:55:44.285Z'
-      cfpathcheck > crlf > glub > minimist:
-        reason: None given
         expires: '2020-04-16T11:59:43.377Z'
     - cfpathcheck > snyk > @snyk/update-notifier > latest-version > package-json > registry-auth-token > rc > minimist:
         reason: None given
-        expires: '2020-04-16T11:55:44.285Z'
-      snyk > @snyk/update-notifier > latest-version > package-json > registry-auth-token > rc > minimist:
-        reason: None given
         expires: '2020-04-16T11:59:43.377Z'
     - cfpathcheck > snyk > @snyk/update-notifier > latest-version > package-json > registry-url > rc > minimist:
-        reason: None given
-        expires: '2020-04-16T11:55:44.285Z'
-      snyk > @snyk/update-notifier > latest-version > package-json > registry-url > rc > minimist:
-        reason: None given
-        expires: '2020-04-16T11:59:43.377Z'
-    - xo > eslint > mkdirp > minimist:
-        reason: None given
-        expires: '2020-04-16T11:55:44.285Z'
-      cfpathcheck > snyk > @snyk/update-notifier > latest-version > package-json > registry-auth-token > rc > minimist:
-        reason: None given
-        expires: '2020-04-16T11:59:43.377Z'
-    - xo > eslint > file-entry-cache > flat-cache > write > mkdirp > minimist:
-        reason: None given
-        expires: '2020-04-16T11:55:44.285Z'
-      cfpathcheck > snyk > @snyk/update-notifier > latest-version > package-json > registry-url > rc > minimist:
-        reason: None given
-        expires: '2020-04-16T11:59:43.377Z'
-    - xo > eslint > mkdirp > minimist:
-        reason: None given
-        expires: '2020-04-16T11:59:43.377Z'
-    - xo > eslint > file-entry-cache > flat-cache > write > mkdirp > minimist:
         reason: None given
         expires: '2020-04-16T11:59:43.377Z'
   SNYK-JS-YARGSPARSER-560381:
     - xo > meow > yargs-parser:
         reason: None given
-        expires: '2020-04-16T11:59:43.377Z'
+        expires: '2020-04-17T15:38:36.720Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   SNYK-JS-LODASH-450202:
