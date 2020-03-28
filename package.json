@@ -18,7 +18,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "prettier": "^1.19.1",
+    "prettier": "^2.0.2",
     "xo": "^0.28.1"
   },
   "scripts": {
