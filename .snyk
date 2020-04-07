@@ -74,7 +74,7 @@ ignore:
   SNYK-JS-YARGSPARSER-560381:
     - xo > meow > yargs-parser:
         reason: None given
-        expires: '2020-04-17T15:38:36.720Z'
+        expires: '2020-05-07T14:33:54.549Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   SNYK-JS-LODASH-450202:
