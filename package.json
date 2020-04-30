@@ -18,8 +18,8 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "prettier": "^2.0.4",
-    "xo": "^0.29.1"
+    "prettier": "^2.0.5",
+    "xo": "^0.30.0"
   },
   "scripts": {
     "test": "npm run test:snyk && npm run test:lint",
@@ -30,8 +30,8 @@
     "prepare": "npm run snyk-protect"
   },
   "dependencies": {
-    "cfpathcheck": "^4.0.0",
-    "snyk": "^1.305.1"
+    "cfpathcheck": "^4.1.0",
+    "snyk": "^1.315.1"
   },
   "snyk": true,
   "xo": {
