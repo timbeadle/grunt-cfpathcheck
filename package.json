@@ -30,7 +30,7 @@
     "prepare": "npm run snyk-protect"
   },
   "dependencies": {
-    "cfpathcheck": "^4.0.0",
+    "cfpathcheck": "^4.1.0",
     "snyk": "^1.315.1"
   },
   "snyk": true,
