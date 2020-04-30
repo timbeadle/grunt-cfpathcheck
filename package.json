@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "cfpathcheck": "^4.0.0",
-    "snyk": "^1.305.1"
+    "snyk": "^1.315.1"
   },
   "snyk": true,
   "xo": {
