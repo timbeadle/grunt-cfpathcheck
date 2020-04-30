@@ -74,7 +74,7 @@ ignore:
   SNYK-JS-YARGSPARSER-560381:
     - xo > meow > yargs-parser:
         reason: None given
-        expires: '2020-05-30T16:51:51.219Z'
+        expires: '2020-05-30T20:59:56.025Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   SNYK-JS-LODASH-450202:
@@ -150,131 +150,89 @@ patch:
     - cfpathcheck > lodash:
         patched: '2020-04-30T16:08:46.746Z'
       xo > lodash:
-        patched: '2020-04-30T16:38:06.678Z'
+        patched: '2020-04-30T20:59:16.769Z'
     - snyk > graphlib > lodash:
         patched: '2020-04-30T16:08:46.746Z'
       xo > eslint-import-resolver-webpack > lodash:
-        patched: '2020-04-30T16:38:06.678Z'
+        patched: '2020-04-30T20:59:16.769Z'
     - snyk > snyk-config > lodash:
         patched: '2020-04-30T16:08:46.746Z'
       xo > eslint-plugin-unicorn > lodash:
-        patched: '2020-04-30T16:38:06.678Z'
+        patched: '2020-04-30T20:59:16.769Z'
     - snyk > snyk-mvn-plugin > lodash:
         patched: '2020-04-30T16:08:46.746Z'
-      cfpathcheck > snyk > graphlib > lodash:
-        patched: '2020-04-30T16:38:06.678Z'
+      xo > @typescript-eslint/parser > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-04-30T20:59:16.769Z'
     - snyk > @snyk/dep-graph > graphlib > lodash:
         patched: '2020-04-30T16:08:46.746Z'
-      cfpathcheck > snyk > snyk-config > lodash:
-        patched: '2020-04-30T16:38:06.678Z'
+      xo > eslint > inquirer > lodash:
+        patched: '2020-04-30T20:59:16.769Z'
     - snyk > snyk-go-plugin > graphlib > lodash:
         patched: '2020-04-30T16:08:46.746Z'
-      cfpathcheck > snyk > snyk-mvn-plugin > lodash:
-        patched: '2020-04-30T16:38:06.678Z'
+      xo > @typescript-eslint/eslint-plugin > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-04-30T20:59:16.769Z'
     - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
         patched: '2020-04-30T16:08:46.746Z'
-      xo > @typescript-eslint/parser > @typescript-eslint/typescript-estree > lodash:
-        patched: '2020-04-30T16:38:06.678Z'
+      xo > @typescript-eslint/parser > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-04-30T20:59:16.769Z'
     - cfpathcheck > snyk > graphlib > lodash:
         patched: '2020-04-30T16:08:46.746Z'
-      xo > eslint > inquirer > lodash:
-        patched: '2020-04-30T16:38:06.678Z'
+      xo > eslint > lodash:
+        patched: '2020-04-30T20:59:16.769Z'
     - cfpathcheck > snyk > snyk-config > lodash:
         patched: '2020-04-30T16:08:46.746Z'
-      cfpathcheck > snyk > @snyk/dep-graph > graphlib > lodash:
-        patched: '2020-04-30T16:38:06.678Z'
+      xo > eslint > table > lodash:
+        patched: '2020-04-30T20:59:16.769Z'
     - cfpathcheck > snyk > snyk-mvn-plugin > lodash:
         patched: '2020-04-30T16:08:46.746Z'
-      cfpathcheck > snyk > snyk-go-plugin > graphlib > lodash:
-        patched: '2020-04-30T16:38:06.678Z'
+      xo > eslint-plugin-ava > enhance-visitors > lodash:
+        patched: '2020-04-30T20:59:16.769Z'
     - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > graphlib > lodash:
         patched: '2020-04-30T16:08:46.746Z'
-      cfpathcheck > snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
-        patched: '2020-04-30T16:38:06.678Z'
+      cfpathcheck > lodash:
+        patched: '2020-04-30T20:59:16.769Z'
     - cfpathcheck > snyk > @snyk/dep-graph > graphlib > lodash:
         patched: '2020-04-30T16:08:46.746Z'
-      xo > @typescript-eslint/eslint-plugin > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
-        patched: '2020-04-30T16:38:06.678Z'
     - cfpathcheck > snyk > snyk-go-plugin > graphlib > lodash:
         patched: '2020-04-30T16:08:46.746Z'
-      xo > @typescript-eslint/parser > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
-        patched: '2020-04-30T16:38:06.678Z'
     - snyk > snyk-mvn-plugin > @snyk/java-call-graph-builder > graphlib > lodash:
         patched: '2020-04-30T16:08:46.746Z'
-      cfpathcheck > snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > graphlib > lodash:
-        patched: '2020-04-30T16:38:06.678Z'
     - cfpathcheck > snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
         patched: '2020-04-30T16:08:46.746Z'
-      cfpathcheck > snyk > snyk-mvn-plugin > @snyk/java-call-graph-builder > graphlib > lodash:
-        patched: '2020-04-30T16:38:06.678Z'
     - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/dep-graph > graphlib > lodash:
         patched: '2020-04-30T16:08:46.746Z'
-      cfpathcheck > snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/dep-graph > graphlib > lodash:
-        patched: '2020-04-30T16:38:06.678Z'
     - cfpathcheck > snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > graphlib > lodash:
         patched: '2020-04-30T16:08:46.746Z'
-      cfpathcheck > snyk > lodash:
-        patched: '2020-04-30T16:38:06.678Z'
     - cfpathcheck > snyk > snyk-mvn-plugin > @snyk/java-call-graph-builder > graphlib > lodash:
         patched: '2020-04-30T16:08:46.746Z'
-      xo > eslint > lodash:
-        patched: '2020-04-30T16:38:06.678Z'
     - cfpathcheck > snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/dep-graph > graphlib > lodash:
         patched: '2020-04-30T16:08:46.746Z'
-      cfpathcheck > snyk > @snyk/dep-graph > lodash:
-        patched: '2020-04-30T16:38:06.678Z'
     - snyk > lodash:
         patched: '2020-04-30T16:08:46.746Z'
-      cfpathcheck > snyk > @snyk/ruby-semver > lodash:
-        patched: '2020-04-30T16:38:06.678Z'
     - snyk > @snyk/ruby-semver > lodash:
         patched: '2020-04-30T16:08:46.746Z'
-      cfpathcheck > snyk > inquirer > lodash:
-        patched: '2020-04-30T16:38:06.678Z'
     - snyk > inquirer > lodash:
         patched: '2020-04-30T16:08:46.746Z'
-      cfpathcheck > snyk > snyk-nodejs-lockfile-parser > lodash:
-        patched: '2020-04-30T16:38:06.678Z'
     - snyk > snyk-nodejs-lockfile-parser > lodash:
         patched: '2020-04-30T16:08:46.746Z'
-      cfpathcheck > snyk > snyk-nuget-plugin > lodash:
-        patched: '2020-04-30T16:38:06.678Z'
     - snyk > snyk-nuget-plugin > lodash:
         patched: '2020-04-30T16:08:46.746Z'
-      xo > eslint > table > lodash:
-        patched: '2020-04-30T16:38:06.678Z'
     - cfpathcheck > snyk > lodash:
         patched: '2020-04-30T16:08:46.746Z'
-      xo > eslint-plugin-ava > enhance-visitors > lodash:
-        patched: '2020-04-30T16:38:06.678Z'
     - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > lodash:
         patched: '2020-04-30T16:08:46.746Z'
-      cfpathcheck > snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > lodash:
-        patched: '2020-04-30T16:38:06.678Z'
     - cfpathcheck > snyk > @snyk/ruby-semver > lodash:
         patched: '2020-04-30T16:08:46.746Z'
-      cfpathcheck > snyk > snyk-mvn-plugin > @snyk/java-call-graph-builder > lodash:
-        patched: '2020-04-30T16:38:06.678Z'
     - cfpathcheck > snyk > inquirer > lodash:
         patched: '2020-04-30T16:08:46.746Z'
-      cfpathcheck > snyk > snyk-nuget-plugin > dotnet-deps-parser > lodash:
-        patched: '2020-04-30T16:38:06.678Z'
     - snyk > snyk-mvn-plugin > @snyk/java-call-graph-builder > lodash:
         patched: '2020-04-30T16:08:46.746Z'
-      cfpathcheck > snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
-        patched: '2020-04-30T16:38:06.678Z'
     - cfpathcheck > snyk > snyk-nodejs-lockfile-parser > lodash:
         patched: '2020-04-30T16:08:46.746Z'
-      cfpathcheck > snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/dep-graph > lodash:
-        patched: '2020-04-30T16:38:06.678Z'
     - snyk > snyk-nuget-plugin > dotnet-deps-parser > lodash:
         patched: '2020-04-30T16:08:46.746Z'
-      cfpathcheck > snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/ruby-semver > lodash:
-        patched: '2020-04-30T16:38:06.678Z'
     - cfpathcheck > snyk > snyk-nuget-plugin > lodash:
         patched: '2020-04-30T16:08:46.746Z'
-      cfpathcheck > lodash:
-        patched: '2020-04-30T16:38:06.678Z'
     - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
         patched: '2020-04-30T16:08:46.746Z'
     - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/ruby-semver > lodash:
@@ -289,3 +247,67 @@ patch:
         patched: '2020-04-30T16:08:46.746Z'
     - cfpathcheck > snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/ruby-semver > lodash:
         patched: '2020-04-30T16:08:46.746Z'
+    - xo > lodash:
+        patched: '2020-04-30T16:38:06.678Z'
+    - xo > eslint-import-resolver-webpack > lodash:
+        patched: '2020-04-30T16:38:06.678Z'
+    - xo > eslint-plugin-unicorn > lodash:
+        patched: '2020-04-30T16:38:06.678Z'
+    - cfpathcheck > snyk > graphlib > lodash:
+        patched: '2020-04-30T16:38:06.678Z'
+    - cfpathcheck > snyk > snyk-config > lodash:
+        patched: '2020-04-30T16:38:06.678Z'
+    - cfpathcheck > snyk > snyk-mvn-plugin > lodash:
+        patched: '2020-04-30T16:38:06.678Z'
+    - xo > @typescript-eslint/parser > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-04-30T16:38:06.678Z'
+    - xo > eslint > inquirer > lodash:
+        patched: '2020-04-30T16:38:06.678Z'
+    - cfpathcheck > snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-04-30T16:38:06.678Z'
+    - cfpathcheck > snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2020-04-30T16:38:06.678Z'
+    - cfpathcheck > snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2020-04-30T16:38:06.678Z'
+    - xo > @typescript-eslint/eslint-plugin > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-04-30T16:38:06.678Z'
+    - xo > @typescript-eslint/parser > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-04-30T16:38:06.678Z'
+    - cfpathcheck > snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-04-30T16:38:06.678Z'
+    - cfpathcheck > snyk > snyk-mvn-plugin > @snyk/java-call-graph-builder > graphlib > lodash:
+        patched: '2020-04-30T16:38:06.678Z'
+    - cfpathcheck > snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-04-30T16:38:06.678Z'
+    - cfpathcheck > snyk > lodash:
+        patched: '2020-04-30T16:38:06.678Z'
+    - xo > eslint > lodash:
+        patched: '2020-04-30T16:38:06.678Z'
+    - cfpathcheck > snyk > @snyk/dep-graph > lodash:
+        patched: '2020-04-30T16:38:06.678Z'
+    - cfpathcheck > snyk > @snyk/ruby-semver > lodash:
+        patched: '2020-04-30T16:38:06.678Z'
+    - cfpathcheck > snyk > inquirer > lodash:
+        patched: '2020-04-30T16:38:06.678Z'
+    - cfpathcheck > snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2020-04-30T16:38:06.678Z'
+    - cfpathcheck > snyk > snyk-nuget-plugin > lodash:
+        patched: '2020-04-30T16:38:06.678Z'
+    - xo > eslint > table > lodash:
+        patched: '2020-04-30T16:38:06.678Z'
+    - xo > eslint-plugin-ava > enhance-visitors > lodash:
+        patched: '2020-04-30T16:38:06.678Z'
+    - cfpathcheck > snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > lodash:
+        patched: '2020-04-30T16:38:06.678Z'
+    - cfpathcheck > snyk > snyk-mvn-plugin > @snyk/java-call-graph-builder > lodash:
+        patched: '2020-04-30T16:38:06.678Z'
+    - cfpathcheck > snyk > snyk-nuget-plugin > dotnet-deps-parser > lodash:
+        patched: '2020-04-30T16:38:06.678Z'
+    - cfpathcheck > snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2020-04-30T16:38:06.678Z'
+    - cfpathcheck > snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/dep-graph > lodash:
+        patched: '2020-04-30T16:38:06.678Z'
+    - cfpathcheck > snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/ruby-semver > lodash:
+        patched: '2020-04-30T16:38:06.678Z'
+    - cfpathcheck > lodash:
+        patched: '2020-04-30T16:38:06.678Z'
