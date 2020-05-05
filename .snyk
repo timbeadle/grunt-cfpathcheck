@@ -74,7 +74,7 @@ ignore:
   SNYK-JS-YARGSPARSER-560381:
     - xo > meow > yargs-parser:
         reason: None given
-        expires: '2020-05-31T17:25:46.215Z'
+        expires: '2020-06-01T21:02:25.420Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   SNYK-JS-LODASH-450202:
@@ -149,46 +149,48 @@ patch:
   SNYK-JS-LODASH-567746:
     - cfpathcheck > lodash:
         patched: '2020-05-01T17:24:51.973Z'
+      xo > lodash:
+        patched: '2020-05-02T20:58:49.352Z'
     - snyk > graphlib > lodash:
         patched: '2020-04-30T16:08:46.746Z'
       xo > eslint-import-resolver-webpack > lodash:
-        patched: '2020-05-01T17:24:51.973Z'
+        patched: '2020-05-02T20:58:49.352Z'
     - snyk > snyk-config > lodash:
         patched: '2020-04-30T16:08:46.746Z'
       xo > eslint-plugin-unicorn > lodash:
-        patched: '2020-05-01T17:24:51.973Z'
+        patched: '2020-05-02T20:58:49.352Z'
     - snyk > snyk-mvn-plugin > lodash:
         patched: '2020-04-30T16:08:46.746Z'
       xo > @typescript-eslint/parser > @typescript-eslint/typescript-estree > lodash:
-        patched: '2020-05-01T17:24:51.973Z'
+        patched: '2020-05-02T20:58:49.352Z'
     - snyk > @snyk/dep-graph > graphlib > lodash:
         patched: '2020-04-30T16:08:46.746Z'
       xo > eslint > inquirer > lodash:
-        patched: '2020-05-01T17:24:51.973Z'
+        patched: '2020-05-02T20:58:49.352Z'
     - snyk > snyk-go-plugin > graphlib > lodash:
         patched: '2020-04-30T16:08:46.746Z'
-      xo > lodash:
-        patched: '2020-05-01T17:24:51.973Z'
+      xo > @typescript-eslint/eslint-plugin > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-05-02T20:58:49.352Z'
     - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
         patched: '2020-04-30T16:08:46.746Z'
       xo > @typescript-eslint/parser > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
-        patched: '2020-05-01T17:24:51.973Z'
+        patched: '2020-05-02T20:58:49.352Z'
     - cfpathcheck > snyk > graphlib > lodash:
         patched: '2020-04-30T16:08:46.746Z'
       xo > eslint > lodash:
-        patched: '2020-05-01T17:24:51.973Z'
+        patched: '2020-05-02T20:58:49.352Z'
     - cfpathcheck > snyk > snyk-config > lodash:
         patched: '2020-04-30T16:08:46.746Z'
       xo > eslint > table > lodash:
-        patched: '2020-05-01T17:24:51.973Z'
+        patched: '2020-05-02T20:58:49.352Z'
     - cfpathcheck > snyk > snyk-mvn-plugin > lodash:
         patched: '2020-04-30T16:08:46.746Z'
       xo > eslint-plugin-ava > enhance-visitors > lodash:
-        patched: '2020-05-01T17:24:51.973Z'
+        patched: '2020-05-02T20:58:49.352Z'
     - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > graphlib > lodash:
         patched: '2020-04-30T16:08:46.746Z'
-      xo > @typescript-eslint/eslint-plugin > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
-        patched: '2020-05-01T17:24:51.973Z'
+      cfpathcheck > lodash:
+        patched: '2020-05-02T20:58:49.352Z'
     - cfpathcheck > snyk > @snyk/dep-graph > graphlib > lodash:
         patched: '2020-04-30T16:08:46.746Z'
     - cfpathcheck > snyk > snyk-go-plugin > graphlib > lodash:
@@ -441,3 +443,23 @@ patch:
         patched: '2020-05-01T14:50:11.782Z'
     - cfpathcheck > lodash:
         patched: '2020-05-01T14:50:11.782Z'
+    - xo > eslint-import-resolver-webpack > lodash:
+        patched: '2020-05-01T17:24:51.973Z'
+    - xo > eslint-plugin-unicorn > lodash:
+        patched: '2020-05-01T17:24:51.973Z'
+    - xo > @typescript-eslint/parser > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-05-01T17:24:51.973Z'
+    - xo > eslint > inquirer > lodash:
+        patched: '2020-05-01T17:24:51.973Z'
+    - xo > lodash:
+        patched: '2020-05-01T17:24:51.973Z'
+    - xo > @typescript-eslint/parser > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-05-01T17:24:51.973Z'
+    - xo > eslint > lodash:
+        patched: '2020-05-01T17:24:51.973Z'
+    - xo > eslint > table > lodash:
+        patched: '2020-05-01T17:24:51.973Z'
+    - xo > eslint-plugin-ava > enhance-visitors > lodash:
+        patched: '2020-05-01T17:24:51.973Z'
+    - xo > @typescript-eslint/eslint-plugin > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-05-01T17:24:51.973Z'
