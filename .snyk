@@ -74,41 +74,99 @@ ignore:
   SNYK-JS-YARGSPARSER-560381:
     - xo > meow > yargs-parser:
         reason: None given
-        expires: '2020-06-27T10:15:13.969Z'
+        expires: '2020-07-19T21:33:12.884Z'
   SNYK-JS-LODASH-567746:
     - cfpathcheck > lodash:
         reason: None given
-        expires: '2020-06-10T20:42:41.398Z'
+        expires: '2020-08-04T10:36:43.512Z'
     - xo > lodash:
         reason: None given
-        expires: '2020-06-10T20:42:41.398Z'
+        expires: '2020-08-04T10:36:43.512Z'
     - xo > eslint-import-resolver-webpack > lodash:
         reason: None given
         expires: '2020-06-10T20:42:41.398Z'
+      xo > eslint > lodash:
+        reason: None given
+        expires: '2020-08-04T10:36:43.512Z'
     - xo > eslint-plugin-unicorn > lodash:
         reason: None given
         expires: '2020-06-10T20:42:41.398Z'
+      xo > eslint-import-resolver-webpack > lodash:
+        reason: None given
+        expires: '2020-08-04T10:36:43.512Z'
     - xo > @typescript-eslint/parser > @typescript-eslint/typescript-estree > lodash:
         reason: None given
         expires: '2020-06-10T20:42:41.398Z'
+      xo > eslint-plugin-unicorn > lodash:
+        reason: None given
+        expires: '2020-08-04T10:36:43.512Z'
     - xo > eslint > inquirer > lodash:
         reason: None given
         expires: '2020-06-10T20:42:41.398Z'
+      xo > @typescript-eslint/parser > @typescript-eslint/typescript-estree > lodash:
+        reason: None given
+        expires: '2020-08-04T10:36:43.512Z'
     - xo > @typescript-eslint/eslint-plugin > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
         reason: None given
         expires: '2020-06-10T20:42:41.398Z'
+      xo > eslint > table > lodash:
+        reason: None given
+        expires: '2020-08-04T10:36:43.513Z'
     - xo > @typescript-eslint/parser > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
         reason: None given
         expires: '2020-06-10T20:42:41.398Z'
+      xo > eslint-plugin-ava > enhance-visitors > lodash:
+        reason: None given
+        expires: '2020-08-04T10:36:43.513Z'
     - xo > eslint > lodash:
         reason: None given
         expires: '2020-06-10T20:42:41.398Z'
+      xo > @typescript-eslint/eslint-plugin > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        reason: None given
+        expires: '2020-08-04T10:36:43.513Z'
     - xo > eslint > table > lodash:
         reason: None given
         expires: '2020-06-10T20:42:41.398Z'
+      xo > @typescript-eslint/parser > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        reason: None given
+        expires: '2020-08-04T10:36:43.513Z'
     - xo > eslint-plugin-ava > enhance-visitors > lodash:
         reason: None given
         expires: '2020-06-10T20:42:41.398Z'
+      xo > eslint-plugin-unicorn > eslint-template-visitor > babel-eslint > @babel/types > lodash:
+        reason: None given
+        expires: '2020-08-04T10:36:43.513Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > babel-eslint > @babel/traverse > lodash:
+        reason: None given
+        expires: '2020-08-04T10:36:43.513Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > babel-eslint > @babel/traverse > @babel/types > lodash:
+        reason: None given
+        expires: '2020-08-04T10:36:43.513Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > babel-eslint > @babel/traverse > @babel/generator > lodash:
+        reason: None given
+        expires: '2020-08-04T10:36:43.513Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > babel-eslint > @babel/traverse > @babel/generator > @babel/types > lodash:
+        reason: None given
+        expires: '2020-08-04T10:36:43.513Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        reason: None given
+        expires: '2020-08-04T10:36:43.513Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > babel-eslint > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        reason: None given
+        expires: '2020-08-04T10:36:43.514Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        reason: None given
+        expires: '2020-08-04T10:36:43.514Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2020-08-04T10:36:43.514Z'
+  SNYK-JS-ELLIPTIC-571484:
+    - xo > eslint-import-resolver-webpack > node-libs-browser > crypto-browserify > browserify-sign > elliptic:
+        reason: None given
+        expires: '2020-07-18T13:35:13.787Z'
+    - xo > eslint-import-resolver-webpack > node-libs-browser > crypto-browserify > create-ecdh > elliptic:
+        reason: None given
+        expires: '2020-07-18T13:35:13.789Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   SNYK-JS-LODASH-450202:
@@ -183,48 +241,26 @@ patch:
   SNYK-JS-LODASH-567746:
     - cfpathcheck > lodash:
         patched: '2020-05-01T17:24:51.973Z'
-      xo > lodash:
-        patched: '2020-05-28T10:12:10.909Z'
     - snyk > graphlib > lodash:
         patched: '2020-04-30T16:08:46.746Z'
-      xo > eslint-import-resolver-webpack > lodash:
-        patched: '2020-05-28T10:12:10.909Z'
     - snyk > snyk-config > lodash:
         patched: '2020-04-30T16:08:46.746Z'
-      xo > eslint-plugin-unicorn > lodash:
-        patched: '2020-05-28T10:12:10.909Z'
     - snyk > snyk-mvn-plugin > lodash:
         patched: '2020-04-30T16:08:46.746Z'
-      xo > @typescript-eslint/parser > @typescript-eslint/typescript-estree > lodash:
-        patched: '2020-05-28T10:12:10.909Z'
     - snyk > @snyk/dep-graph > graphlib > lodash:
         patched: '2020-04-30T16:08:46.746Z'
-      xo > eslint > inquirer > lodash:
-        patched: '2020-05-28T10:12:10.909Z'
     - snyk > snyk-go-plugin > graphlib > lodash:
         patched: '2020-04-30T16:08:46.746Z'
-      xo > @typescript-eslint/eslint-plugin > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
-        patched: '2020-05-28T10:12:10.909Z'
     - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
         patched: '2020-04-30T16:08:46.746Z'
-      xo > @typescript-eslint/parser > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
-        patched: '2020-05-28T10:12:10.909Z'
     - cfpathcheck > snyk > graphlib > lodash:
         patched: '2020-04-30T16:08:46.746Z'
-      xo > eslint > lodash:
-        patched: '2020-05-28T10:12:10.909Z'
     - cfpathcheck > snyk > snyk-config > lodash:
         patched: '2020-04-30T16:08:46.746Z'
-      xo > eslint > table > lodash:
-        patched: '2020-05-28T10:12:10.909Z'
     - cfpathcheck > snyk > snyk-mvn-plugin > lodash:
         patched: '2020-04-30T16:08:46.746Z'
-      xo > eslint-plugin-ava > enhance-visitors > lodash:
-        patched: '2020-05-28T10:12:10.909Z'
     - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > graphlib > lodash:
         patched: '2020-04-30T16:08:46.746Z'
-      cfpathcheck > lodash:
-        patched: '2020-05-28T10:12:10.909Z'
     - cfpathcheck > snyk > @snyk/dep-graph > graphlib > lodash:
         patched: '2020-04-30T16:08:46.746Z'
     - cfpathcheck > snyk > snyk-go-plugin > graphlib > lodash:
@@ -541,3 +577,107 @@ patch:
         patched: '2020-05-11T17:18:59.846Z'
     - cfpathcheck > lodash:
         patched: '2020-05-11T17:18:59.846Z'
+    - xo > lodash:
+        patched: '2020-05-28T10:12:10.909Z'
+    - xo > eslint-import-resolver-webpack > lodash:
+        patched: '2020-05-28T10:12:10.909Z'
+    - xo > eslint-plugin-unicorn > lodash:
+        patched: '2020-05-28T10:12:10.909Z'
+    - xo > @typescript-eslint/parser > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-05-28T10:12:10.909Z'
+    - xo > eslint > inquirer > lodash:
+        patched: '2020-05-28T10:12:10.909Z'
+    - xo > @typescript-eslint/eslint-plugin > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-05-28T10:12:10.909Z'
+    - xo > @typescript-eslint/parser > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-05-28T10:12:10.909Z'
+    - xo > eslint > lodash:
+        patched: '2020-05-28T10:12:10.909Z'
+    - xo > eslint > table > lodash:
+        patched: '2020-05-28T10:12:10.909Z'
+    - xo > eslint-plugin-ava > enhance-visitors > lodash:
+        patched: '2020-05-28T10:12:10.909Z'
+    - cfpathcheck > lodash:
+        patched: '2020-05-28T10:12:10.909Z'
+    - xo > lodash:
+        patched: '2020-06-18T13:20:26.797Z'
+    - xo > eslint > lodash:
+        patched: '2020-06-18T13:20:26.797Z'
+    - xo > eslint-import-resolver-webpack > lodash:
+        patched: '2020-06-18T13:20:26.797Z'
+    - xo > eslint-plugin-unicorn > lodash:
+        patched: '2020-06-18T13:20:26.797Z'
+    - xo > @typescript-eslint/parser > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-06-18T13:20:26.797Z'
+    - xo > eslint > inquirer > lodash:
+        patched: '2020-06-18T13:20:26.797Z'
+    - xo > eslint > table > lodash:
+        patched: '2020-06-18T13:20:26.797Z'
+    - xo > eslint-plugin-ava > enhance-visitors > lodash:
+        patched: '2020-06-18T13:20:26.797Z'
+    - xo > @typescript-eslint/eslint-plugin > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-06-18T13:20:26.797Z'
+    - xo > @typescript-eslint/parser > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-06-18T13:20:26.797Z'
+    - cfpathcheck > lodash:
+        patched: '2020-06-18T13:20:26.797Z'
+    - xo > lodash:
+        patched: '2020-06-19T21:32:37.045Z'
+    - xo > eslint > lodash:
+        patched: '2020-06-19T21:32:37.045Z'
+    - xo > eslint-import-resolver-webpack > lodash:
+        patched: '2020-06-19T21:32:37.045Z'
+    - xo > eslint-plugin-unicorn > lodash:
+        patched: '2020-06-19T21:32:37.045Z'
+    - xo > @typescript-eslint/parser > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-06-19T21:32:37.045Z'
+    - xo > eslint > inquirer > lodash:
+        patched: '2020-06-19T21:32:37.045Z'
+    - xo > eslint > table > lodash:
+        patched: '2020-06-19T21:32:37.045Z'
+    - xo > eslint-plugin-ava > enhance-visitors > lodash:
+        patched: '2020-06-19T21:32:37.045Z'
+    - xo > @typescript-eslint/eslint-plugin > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-06-19T21:32:37.045Z'
+    - xo > @typescript-eslint/parser > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-06-19T21:32:37.045Z'
+    - cfpathcheck > lodash:
+        patched: '2020-06-19T21:32:37.045Z'
+    - xo > lodash:
+        patched: '2020-07-05T10:31:24.787Z'
+    - xo > eslint > lodash:
+        patched: '2020-07-05T10:31:24.787Z'
+    - xo > eslint-import-resolver-webpack > lodash:
+        patched: '2020-07-05T10:31:24.787Z'
+    - xo > eslint-plugin-unicorn > lodash:
+        patched: '2020-07-05T10:31:24.787Z'
+    - xo > @typescript-eslint/parser > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-07-05T10:31:24.787Z'
+    - xo > eslint > table > lodash:
+        patched: '2020-07-05T10:31:24.787Z'
+    - xo > eslint-plugin-ava > enhance-visitors > lodash:
+        patched: '2020-07-05T10:31:24.787Z'
+    - xo > @typescript-eslint/eslint-plugin > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-07-05T10:31:24.787Z'
+    - xo > @typescript-eslint/parser > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-07-05T10:31:24.787Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > babel-eslint > @babel/types > lodash:
+        patched: '2020-07-05T10:31:24.787Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > babel-eslint > @babel/traverse > lodash:
+        patched: '2020-07-05T10:31:24.787Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > babel-eslint > @babel/traverse > @babel/types > lodash:
+        patched: '2020-07-05T10:31:24.787Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-07-05T10:31:24.787Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > babel-eslint > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2020-07-05T10:31:24.787Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2020-07-05T10:31:24.787Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > babel-eslint > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-07-05T10:31:24.787Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-07-05T10:31:24.787Z'
+    - xo > eslint-plugin-unicorn > eslint-template-visitor > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-07-05T10:31:24.787Z'
+    - cfpathcheck > lodash:
+        patched: '2020-07-05T10:31:24.787Z'
