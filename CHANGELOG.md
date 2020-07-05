@@ -2,6 +2,22 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [4.1.0] - 2020-02-23
+### Added
+- Github workflow for running tests
+- node_js v14 support
+- travis-ci.com for test and build
+
+### Updated
+- cfpathcheck@4.2.0
+- prettier@2.0.5
+- snyk@1.360.0
+- xo@0.32.1
+
+### Removed
+- Greenkeeper badge (retired)
+- travis-ci.org test/build
+
 ## [4.0.0] - 2020-02-23
 ### Added
 - xo linter
