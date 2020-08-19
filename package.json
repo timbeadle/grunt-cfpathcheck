@@ -22,7 +22,7 @@
     "xo": "^0.33.0"
   },
   "scripts": {
-    "test": "npm run test:snyk && npm run test:lint",
+    "test": "snyk test && npm run test:snyk && npm run test:lint",
     "test:ci": "npm run test:lint",
     "test:lint": "xo tasks/cfpathcheck.js",
     "test:snyk": "snyk test --dev",
@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "cfpathcheck": "^4.3.0",
-    "snyk": "^1.373.1"
+    "snyk": "^1.379.0"
   },
   "snyk": true,
   "xo": {
