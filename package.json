@@ -18,7 +18,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "prettier": "^2.1.1",
+    "prettier": "^2.1.2",
     "xo": "^0.33.1"
   },
   "scripts": {
@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "cfpathcheck": "^4.3.0",
-    "snyk": "^1.388.0"
+    "snyk": "^1.398.1"
   },
   "snyk": true,
   "xo": {
