@@ -2,6 +2,16 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [4.2.0] - 2020-10-21
+## Added
+- node_js 15 support
+
+## Updated
+- cfpathcheck@4.4.0
+- prettier@2.1.2
+- snyk@1.419.0
+- xo@0.34.1
+
 ## [4.1.0] - 2020-07-05
 ### Added
 - Github workflow for running tests
@@ -168,6 +178,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ### Added
 - TravisCI build badge.
 
+[4.2.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/4.1.0...4.2.0
 [4.1.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/4.0.0...4.1.0
 [4.0.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/3.0.3...4.0.0
 [3.0.3]: https://github.com/timbeadle/grunt-cfpathcheck/compare/3.0.2...3.0.3
