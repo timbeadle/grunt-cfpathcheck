@@ -19,7 +19,7 @@
   "license": "MIT",
   "devDependencies": {
     "prettier": "^2.1.2",
-    "xo": "^0.34.1"
+    "xo": "^0.34.2"
   },
   "scripts": {
     "test": "snyk test && npm run test:snyk && npm run test:lint",
@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "cfpathcheck": "^4.4.0",
-    "snyk": "^1.420.0"
+    "snyk": "^1.428.2"
   },
   "snyk": true,
   "xo": {
