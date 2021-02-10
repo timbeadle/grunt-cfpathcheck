@@ -167,6 +167,19 @@ ignore:
     - xo > eslint-import-resolver-webpack > node-libs-browser > crypto-browserify > create-ecdh > elliptic:
         reason: None given
         expires: '2020-07-18T13:35:13.789Z'
+  SNYK-JS-GLOBPARENT-1016905:
+    - xo > eslint > glob-parent:
+        reason: None given
+        expires: '2021-03-12T17:43:16.974Z'
+    - xo > @typescript-eslint/parser > @typescript-eslint/typescript-estree > globby > fast-glob > glob-parent:
+        reason: None given
+        expires: '2021-03-12T17:43:16.974Z'
+    - xo > @typescript-eslint/eslint-plugin > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > globby > fast-glob > glob-parent:
+        reason: None given
+        expires: '2021-03-12T17:43:16.974Z'
+    - xo > globby > fast-glob > glob-parent:
+        reason: None given
+        expires: '2021-03-12T17:43:16.974Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   SNYK-JS-LODASH-450202:
