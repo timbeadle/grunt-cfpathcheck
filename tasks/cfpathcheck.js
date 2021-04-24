@@ -9,7 +9,7 @@
 /*global module, require */
 /*eslint-env es6 */
 
-module.exports = (grunt) => {
+module.exports = function (grunt) {
 
 	// Please see the Grunt documentation for more information regarding task
 	// creation: http://gruntjs.com/creating-tasks
@@ -17,7 +17,7 @@ module.exports = (grunt) => {
 	grunt.registerMultiTask(
 		'cfpathcheck',
 		'Grunt wrapper for cfpathcheck',
-		() => {
+		function () {
 			const cfpathcheck = require('cfpathcheck/lib/cfpathcheck');
 
 			// Merge task-specific and/or target-specific options with these defaults.
