@@ -9,7 +9,7 @@
 /*global module, require */
 /*eslint-env es6 */
 
-module.exports = (grunt) => {
+module.exports = function (grunt) {
 
 	'use strict';
 
@@ -19,7 +19,7 @@ module.exports = (grunt) => {
 	grunt.registerMultiTask(
 		'cfpathcheck',
 		'Grunt wrapper for cfpathcheck',
-		() => {
+		function () {
 			const cfpathcheck = require('cfpathcheck/lib/cfpathcheck');
 
 			// Merge task-specific and/or target-specific options with these defaults.
