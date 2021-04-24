@@ -6,7 +6,9 @@
  * Licensed under the MIT license.
  */
 
-module.exports = function (grunt) {
+import cfpathcheck from 'cfpathcheck/lib/cfpathcheck.js';
+
+const task = function (grunt) {
 
 	'use strict';
 
@@ -17,8 +19,6 @@ module.exports = function (grunt) {
 		'cfpathcheck',
 		'Grunt wrapper for cfpathcheck',
 		function () {
-			const cfpathcheck = require('cfpathcheck/lib/cfpathcheck');
-
 			// Merge task-specific and/or target-specific options with these defaults.
 			const options = this.options({
 				reporter: 'console',
@@ -47,3 +47,5 @@ module.exports = function (grunt) {
 		}
 	);
 };
+
+export default task;
