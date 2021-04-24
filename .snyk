@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.14.1
+version: v1.19.0
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   SNYK-JS-SETVALUE-450213:
@@ -167,6 +167,38 @@ ignore:
     - xo > eslint-import-resolver-webpack > node-libs-browser > crypto-browserify > create-ecdh > elliptic:
         reason: None given
         expires: '2020-07-18T13:35:13.789Z'
+  SNYK-JS-GLOBPARENT-1016905:
+    - xo > eslint > glob-parent:
+        reason: None given
+        expires: '2021-03-12T17:43:16.974Z'
+      xo > globby > fast-glob > glob-parent:
+        reason: None given
+        expires: '2021-05-14T13:52:07.386Z'
+    - xo > @typescript-eslint/parser > @typescript-eslint/typescript-estree > globby > fast-glob > glob-parent:
+        reason: None given
+        expires: '2021-03-12T17:43:16.974Z'
+    - xo > @typescript-eslint/eslint-plugin > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > globby > fast-glob > glob-parent:
+        reason: None given
+        expires: '2021-03-12T17:43:16.974Z'
+    - xo > globby > fast-glob > glob-parent:
+        reason: None given
+        expires: '2021-03-12T17:43:16.974Z'
+    - xo > globby > fast-glob > glob-parent:
+        reason: None given
+        expires: '2021-04-16T11:27:51.572Z'
+    - xo > globby > fast-glob > glob-parent:
+        reason: None given
+        expires: '2021-04-23T21:18:31.591Z'
+  SNYK-JS-HOSTEDGITINFO-1088355:
+    - xo > eslint-plugin-import > read-pkg-up > read-pkg > normalize-package-data > hosted-git-info:
+        reason: None given
+        expires: '2021-04-23T21:18:31.591Z'
+    - xo > eslint-plugin-unicorn > read-pkg-up > read-pkg > normalize-package-data > hosted-git-info:
+        reason: None given
+        expires: '2021-04-23T21:18:31.591Z'
+    - xo > meow > read-pkg-up > read-pkg > normalize-package-data > hosted-git-info:
+        reason: None given
+        expires: '2021-04-23T21:18:31.591Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   SNYK-JS-LODASH-450202:
