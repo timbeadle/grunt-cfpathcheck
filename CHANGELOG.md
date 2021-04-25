@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [4.2.1] - 2021-04-24
+### Updated
+- Revert to function() instead of fat arrow functions to preserve `this`
+
 ## [4.2.0] - 2020-10-21
 ## Added
 - node_js 15 support
@@ -178,6 +182,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ### Added
 - TravisCI build badge.
 
+[4.2.1]: https://github.com/timbeadle/grunt-cfpathcheck/compare/4.2.0...4.2.1
 [4.2.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/4.1.0...4.2.0
 [4.1.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/4.0.0...4.1.0
 [4.0.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/3.0.3...4.0.0
