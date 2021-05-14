@@ -6,6 +6,8 @@
  * Licensed under the MIT license.
  */
 
+/* eslint-disable unicorn/prefer-module */
+
 module.exports = function (grunt) {
 
 	'use strict';
