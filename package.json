@@ -29,10 +29,6 @@
     "snyk-protect": "snyk protect",
     "prepare": "npm run snyk-protect"
   },
-  "dependencies": {
-    "cfpathcheck": "^4.4.0",
-    "snyk": "^1.540.0"
-  },
   "snyk": true,
   "xo": {
     "env": [
