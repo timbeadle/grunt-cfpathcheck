@@ -35,5 +35,8 @@
       "node"
     ],
     "prettier": true
+  },
+  "dependencies": {
+    "snyk": "^1.624.0"
   }
 }
