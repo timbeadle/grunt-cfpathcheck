@@ -19,7 +19,7 @@
   "license": "MIT",
   "devDependencies": {
     "prettier": "^2.2.1",
-    "xo": "^0.40.2"
+    "xo": "^0.41.0"
   },
   "scripts": {
     "test": "snyk test && npm run test:snyk && npm run test:lint",
