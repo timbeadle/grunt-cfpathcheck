@@ -18,8 +18,8 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "prettier": "^2.2.1",
-    "xo": "^0.46.3"
+    "prettier": "^2.4.1",
+    "xo": "^0.46.4"
   },
   "scripts": {
     "test": "snyk test && npm run test:snyk && npm run test:lint",
@@ -37,6 +37,6 @@
     "prettier": true
   },
   "dependencies": {
-    "snyk": "^1.745.0"
+    "snyk": "^1.752.0"
   }
 }
