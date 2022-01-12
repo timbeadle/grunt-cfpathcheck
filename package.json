@@ -26,7 +26,7 @@
     "test:ci": "npm run test:lint",
     "test:lint": "xo tasks/cfpathcheck.js",
     "test:snyk": "snyk test --dev",
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "prepare": "npm run snyk-protect"
   },
   "snyk": true,
@@ -37,6 +37,6 @@
     "prettier": true
   },
   "dependencies": {
-    "snyk": "^1.816.0"
+    "@snyk/protect": "^1.824.0"
   }
 }
