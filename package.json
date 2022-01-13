@@ -37,6 +37,7 @@
     "prettier": true
   },
   "dependencies": {
-    "@snyk/protect": "^1.824.0"
+    "@snyk/protect": "^1.824.0",
+    "cfpathcheck": "^5.0.0"
   }
 }
