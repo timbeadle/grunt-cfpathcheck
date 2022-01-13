@@ -6,7 +6,10 @@
  * Licensed under the MIT license.
  */
 
+/* eslint-disable unicorn/prefer-module */
+
 module.exports = function (grunt) {
+
 	'use strict';
 
 	// Please see the Grunt documentation for more information regarding task
@@ -21,7 +24,7 @@ module.exports = function (grunt) {
 			// Merge task-specific and/or target-specific options with these defaults.
 			const options = this.options({
 				reporter: 'console',
-				outFile: undefined,
+				outFile: undefined
 			});
 			let file;
 
@@ -39,10 +42,10 @@ module.exports = function (grunt) {
 				if (options.outFile) {
 					cfpathcheck.writeFile(
 						cfpathcheck.formatter(violations, 'checkstyle'),
-						options.outFile,
+						options.outFile
 					);
 				}
 			}
-		},
+		}
 	);
 };
