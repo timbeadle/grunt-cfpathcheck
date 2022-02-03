@@ -10,4 +10,4 @@ parserOptions:
 plugins:
   - import
 rules:
-  import/no-unresolved: [2, {commonjs: true, amd: true}]
+  import/no-unresolved: [ 2, { commonjs: true } ]
