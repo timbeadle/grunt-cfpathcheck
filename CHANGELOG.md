@@ -2,6 +2,20 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [5.0.0] - 2022-04-29
+### Added
+- eslint
+- eslint-config-xo
+- eslint-plugin-import
+- @snyk/protect
+- nodejs v16, v18 test runs
+### Updated
+- prettier@2.6.1
+### Removed
+- snyk
+- xo
+- nodejs v10 support (nodejs v12 is now the minimum supported version)
+
 ## [4.2.1] - 2021-04-24
 ### Updated
 - Revert to function() instead of fat arrow functions to preserve `this`
@@ -182,6 +196,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ### Added
 - TravisCI build badge.
 
+[5.0.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/4.2.1...5.0.0
 [4.2.1]: https://github.com/timbeadle/grunt-cfpathcheck/compare/4.2.0...4.2.1
 [4.2.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/4.1.0...4.2.0
 [4.1.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/4.0.0...4.1.0
