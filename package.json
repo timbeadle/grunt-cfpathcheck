@@ -34,6 +34,6 @@
   "snyk": true,
   "dependencies": {
     "@snyk/protect": "^1.914.0",
-    "cfpathcheck": "^5.0.2"
+    "cfpathcheck": "^4.4.0"
   }
 }
