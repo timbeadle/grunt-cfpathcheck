@@ -17,23 +17,25 @@
     "node": ">=12"
   },
   "license": "MIT",
-  "devDependencies": {
-    "eslint": "^8.14.0",
-    "eslint-config-xo": "^0.40.0",
-    "eslint-plugin-import": "^2.26.0",
-    "prettier": "^2.6.2"
-  },
   "scripts": {
-    "test": "snyk test && npm run test:snyk && npm run test:lint",
-    "test:ci": "npm run test:lint",
+    "test": "npm run test:snyk && npm run test:lint && npm run test:engines",
+    "test:ci": "npm run test:lint && npm run test:engines",
+    "test:engines": "ls-engines",
     "test:lint": "eslint tasks/cfpathcheck.js",
     "test:snyk": "snyk test --dev",
     "snyk-protect": "snyk-protect",
     "prepare": "npm run snyk-protect"
   },
-  "snyk": true,
   "dependencies": {
     "@snyk/protect": "^1.914.0",
-    "cfpathcheck": "^5.0.2"
-  }
+    "cfpathcheck": "^4.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "eslint-config-xo": "^0.40.0",
+    "eslint-plugin-import": "^2.26.0",
+    "ls-engines": "^0.6.5",
+    "prettier": "^2.6.2"
+  },
+  "snyk": true
 }
