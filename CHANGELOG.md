@@ -4,17 +4,23 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [5.0.0] - 2022-04-29
 ### Added
+- @snyk/protect
 - eslint
 - eslint-config-xo
 - eslint-plugin-import
-- @snyk/protect
+- ls-engines
 - nodejs v16, v18 test runs
+- dependabot
+
 ### Updated
-- prettier@2.6.1
+- prettier@2.6.2
+- link to CHANGELOG (points at main branch)
+
 ### Removed
 - snyk
 - xo
 - nodejs v10 support (nodejs v12 is now the minimum supported version)
+- TravisCI build
 
 ## [4.2.1] - 2021-04-24
 ### Updated
