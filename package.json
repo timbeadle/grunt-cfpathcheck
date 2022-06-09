@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@snyk/protect": "^1.947.0",
-    "cfpathcheck": "^4.5.0"
+    "cfpathcheck": "^5.0.2"
   },
   "devDependencies": {
     "eslint": "^8.17.0",
