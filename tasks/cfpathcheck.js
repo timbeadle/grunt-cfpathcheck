@@ -12,11 +12,20 @@ module.exports = function (grunt) {
 	// Please see the Grunt documentation for more information regarding task
 	// creation: http://gruntjs.com/creating-tasks
 
+	let cfpathcheck = {};
+
 	grunt.registerMultiTask(
 		'cfpathcheck',
 		'Grunt wrapper for cfpathcheck',
 		function () {
-			const cfpathcheck = require('cfpathcheck/lib/cfpathcheck');
+			(async function () {
+				cfpathcheck = {
+					check: (await import('cfpathcheck/lib/cfpathcheck')).check,
+					formatter: (await import('cfpathcheck/lib/cfpathcheck')).formatter,
+					writeFile: (await import('cfpathcheck/lib/cfpathcheck')).writeFile,
+					writeOutput: (await import('cfpathcheck/lib/cfpathcheck')).writeOutput,
+				};
+			})();
 
 			// Merge task-specific and/or target-specific options with these defaults.
 			const options = this.options({
