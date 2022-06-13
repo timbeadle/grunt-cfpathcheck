@@ -1,4 +1,4 @@
-#/bin/bash
+#/usr/bin/env bash
 
 STR=`grunt`;
 SUB='test-template.cfm';
