@@ -3,7 +3,7 @@
 STR=`grunt`;
 SUB='test-template.cfm';
 
-if [[ "$STR" == *"$SUB"* ]]; then
+if grep -q "$SUB" <<< "$STR"; then
 	echo "[GRUNT] test passed";
 else
 	echo "[GRUNT] test failed";
