@@ -18,9 +18,10 @@
   },
   "license": "MIT",
   "scripts": {
-    "test": "npm run test:snyk && npm run test:lint && npm run test:engines",
-    "test:ci": "npm run test:lint && npm run test:engines",
+    "test": "npm run test:snyk && npm run test:lint && npm run test:engines && npm run test:grunt",
+    "test:ci": "npm run test:lint && npm run test:engines && npm run test:grunt",
     "test:engines": "ls-engines",
+    "test:grunt": "./test-grunt.sh",
     "test:lint": "eslint tasks/cfpathcheck.js",
     "test:snyk": "snyk test --dev",
     "snyk-protect": "snyk-protect",
@@ -34,6 +35,7 @@
     "eslint": "^8.17.0",
     "eslint-config-xo": "^0.41.0",
     "eslint-plugin-import": "^2.26.0",
+    "grunt": "^1.5.3",
     "ls-engines": "^0.7.0",
     "prettier": "^2.6.2"
   },
