@@ -12,7 +12,7 @@ module.exports = function (grunt) {
 		},
 	});
 
-	// Load the plugin that provides the "uglify" task.
+	// Load the plugin that provides the "cfpathcheck" task.
 	grunt.loadTasks('./tasks');
 
 	grunt.registerTask('default', ['cfpathcheck']);
