@@ -1,6 +1,6 @@
 #!/bin/bash
 
-STR=`grunt`;
+STR=$(grunt);
 SUB='test-template.cfm';
 
 if [[ "$STR" =~ .*"$SUB".* ]]; then
