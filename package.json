@@ -22,7 +22,7 @@
     "test:ci": "npm run test:lint && npm run test:engines && npm run test:grunt",
     "test:engines": "ls-engines",
     "test:grunt": "./test-grunt.sh",
-    "test:lint": "eslint tasks/cfpathcheck.js",
+    "test:lint": "eslint Gruntfile.js tasks/cfpathcheck.js",
     "test:snyk": "snyk test --dev",
     "snyk-protect": "snyk-protect",
     "prepare": "npm run snyk-protect"
@@ -32,9 +32,10 @@
     "cfpathcheck": "^5.0.2"
   },
   "devDependencies": {
-    "eslint": "^8.17.0",
+    "eslint": "^8.18.0",
     "eslint-config-xo": "^0.41.0",
     "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-redos": "^4.4.1",
     "grunt": "^1.5.3",
     "ls-engines": "^0.7.0",
     "prettier": "^2.6.2"
