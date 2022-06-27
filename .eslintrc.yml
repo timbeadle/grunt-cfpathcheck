@@ -9,5 +9,7 @@ parserOptions:
   ecmaVersion: 13
 plugins:
   - import
+  - redos
 rules:
   import/no-unresolved: [2, {commonjs: true, amd: true}]
+  redos/no-vulnerable: error
