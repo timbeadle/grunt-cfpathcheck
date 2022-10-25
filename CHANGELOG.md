@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [6.0.1] - 2022-10-25
+### Updated
+- cfpathcheck@6.0.0
+
 ## [6.0.0] - 2022-10-25
 ### Added
 - NodeJS v19 test run
@@ -228,7 +232,8 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ### Added
 - TravisCI build badge.
 
-[5.0.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/5.0.0...6.0.0
+[6.0.1]: https://github.com/timbeadle/grunt-cfpathcheck/compare/6.0.0...6.0.1
+[6.0.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/5.0.0...6.0.0
 [5.0.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/4.2.1...5.0.0
 [4.2.1]: https://github.com/timbeadle/grunt-cfpathcheck/compare/4.2.0...4.2.1
 [4.2.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/4.1.0...4.2.0
