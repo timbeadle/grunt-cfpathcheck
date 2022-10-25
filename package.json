@@ -28,8 +28,8 @@
     "prepare": "npm run snyk-protect"
   },
   "dependencies": {
-    "@snyk/protect": "^1.947.0",
-    "cfpathcheck": "^5.0.2"
+    "@snyk/protect": "^1.1041.0",
+    "cfpathcheck": "^5.1.0"
   },
   "devDependencies": {
     "eslint": "8.26.0",
