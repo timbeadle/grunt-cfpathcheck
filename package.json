@@ -37,7 +37,7 @@
     "eslint-plugin-import": "2.27.5",
     "eslint-plugin-redos": "4.4.3",
     "grunt": "1.5.3",
-    "ls-engines": "0.8.1",
+    "ls-engines": "0.9.0",
     "prettier": "2.8.3"
   },
   "snyk": true
