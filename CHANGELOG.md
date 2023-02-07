@@ -2,6 +2,20 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [7.0.0] - 2023-02-07
+### Updated
+- cfpathcheck@7.0.0
+- eslint@8.33.0
+- eslint-config-xo@0.43.1
+- eslint-plugin-import@2.27.5
+- eslint-plugin-redos@4.4.3
+- ls-engines@0.9.0
+- prettier@2.8.3
+
+### Removed
+- Breaking: NodeJS support <14.13
+- NodeJS 12.x test run
+
 ## [6.0.1] - 2022-10-25
 ### Updated
 - cfpathcheck@6.0.0
@@ -232,6 +246,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ### Added
 - TravisCI build badge.
 
+[7.0.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/6.0.1...7.0.0
 [6.0.1]: https://github.com/timbeadle/grunt-cfpathcheck/compare/6.0.0...6.0.1
 [6.0.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/5.0.0...6.0.0
 [5.0.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/4.2.1...5.0.0
