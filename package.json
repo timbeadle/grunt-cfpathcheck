@@ -22,7 +22,7 @@
     "test:ci": "npm run test:lint && npm run test:engines && npm run test:grunt",
     "test:engines": "ls-engines",
     "test:grunt": "./test-grunt.sh",
-    "test:lint": "eslint tasks/cfpathcheck.js",
+    "test:lint": "eslint Gruntfile.js tasks/cfpathcheck.js",
     "test:snyk": "snyk test --dev",
     "snyk-protect": "snyk-protect",
     "prepare": "npm run snyk-protect"
