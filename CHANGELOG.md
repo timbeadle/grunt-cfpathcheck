@@ -2,6 +2,27 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [4.3.0] - 2023-03-08
+### Added
+- eslint, eslint-config-xo, eslint-plugin-import
+- codeql workflow
+- NodeJS v16, v18, v19 test runs
+- Gruntfile.js for testing
+- @snyk/protect
+- ls-engines
+
+### Updated
+- cfpathcheck@4.6.1
+- prettier@2.8.4
+- Code style to match xo rules
+- Branch patterns in NodeJS workflow to cover all main*
+
+### Removed
+- BREAKING: minimum NodeJS version is now v12 (sorry for no major bump, but this is a back-port to an older release tree)
+- xo
+- snyk
+- NodeJS v10, v13, v15 test runs
+
 ## [4.2.1] - 2021-04-24
 ### Updated
 - Revert to function() instead of fat arrow functions to preserve `this`
@@ -182,6 +203,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ### Added
 - TravisCI build badge.
 
+[4.3.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/4.2.1...4.3.0
 [4.2.1]: https://github.com/timbeadle/grunt-cfpathcheck/compare/4.2.0...4.2.1
 [4.2.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/4.1.0...4.2.0
 [4.1.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/4.0.0...4.1.0
