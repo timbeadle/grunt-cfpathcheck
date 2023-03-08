@@ -24,7 +24,7 @@
   },
   "scripts": {
     "test": "npm run test:snyk && npm run test:lint && npm run test:engines",
-    "test:ci": "npm run test:lint",
+    "test:ci": "npm run test:lint && npm run test:engines",
     "test:engines": "ls-engines",
     "test:lint": "xo tasks/cfpathcheck.js",
     "test:snyk": "snyk test --dev",
