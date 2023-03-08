@@ -1,0 +1,13 @@
+env:
+   browser: true
+   commonjs: true
+   es2021: true
+extends:
+   - xo
+   - plugin:import/recommended
+parserOptions:
+   ecmaVersion: 13
+plugins:
+   - import
+rules:
+   import/no-unresolved: [2, {commonjs: true, amd: true}]
