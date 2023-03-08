@@ -18,12 +18,14 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "ls-engines": "^0.8.1",
     "prettier": "^2.1.2",
     "xo": "^0.34.1"
   },
   "scripts": {
-    "test": "npm run test:snyk && npm run test:lint",
+    "test": "npm run test:snyk && npm run test:lint && npm run test:engines",
     "test:ci": "npm run test:lint",
+    "test:engines": "ls-engines",
     "test:lint": "xo tasks/cfpathcheck.js",
     "test:snyk": "snyk test --dev",
     "snyk-protect": "snyk-protect",
