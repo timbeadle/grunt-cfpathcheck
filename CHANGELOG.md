@@ -2,6 +2,18 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [5.1.0] - 2023-03-09
+### Added
+- grunt
+- Gruntfile.js for testing
+
+### Updated
+- Correct link to CHANGELOG.md
+- Correct HEAD branch for workflows
+- @snyk/protect@1.1115.0
+- cfpathcheck@4.6.1
+- eslint@8.35.0
+
 ## [5.0.0] - 2022-05-03
 ### Added
 - @snyk/protect
@@ -223,6 +235,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ### Added
 - TravisCI build badge.
 
+[5.1.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/5.0.0...5.1.0
 [5.0.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/4.3.0...5.0.0
 [4.3.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/4.2.1...4.3.0
 [4.2.1]: https://github.com/timbeadle/grunt-cfpathcheck/compare/4.2.0...4.2.1
