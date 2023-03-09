@@ -31,7 +31,7 @@
     "cfpathcheck": "^4.6.1"
   },
   "devDependencies": {
-    "eslint": "^8.14.0",
+    "eslint": "^8.35.0",
     "eslint-config-xo": "^0.40.0",
     "eslint-plugin-import": "^2.26.0",
     "ls-engines": "^0.6.5",
