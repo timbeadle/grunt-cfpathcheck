@@ -18,8 +18,8 @@
   },
   "license": "MIT",
   "scripts": {
-    "test": "npm run test:snyk && npm run test:lint && npm run test:engines && test:grunt",
-    "test:ci": "npm run test:lint && npm run test:engines && test:grunt",
+    "test": "npm run test:snyk && npm run test:lint && npm run test:engines && npm run test:grunt",
+    "test:ci": "npm run test:lint && npm run test:engines && npm run test:grunt",
     "test:engines": "ls-engines",
     "test:grunt": "./test-grunt.sh",
     "test:lint": "eslint Gruntfile.js tasks/cfpathcheck.js",
