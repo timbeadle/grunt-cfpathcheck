@@ -2,6 +2,56 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [7.0.1] - 2023-03-20
+### Updated
+- eslint@8.36.0
+- eslint-plugin-redos@4.4.5
+- prettier@2.8.5
+
+## [7.0.0] - 2023-02-07
+### Updated
+- cfpathcheck@7.0.0
+- eslint@8.33.0
+- eslint-config-xo@0.43.1
+- eslint-plugin-import@2.27.5
+- eslint-plugin-redos@4.4.3
+- ls-engines@0.9.0
+- prettier@2.8.3
+
+### Removed
+- Breaking: NodeJS support <14.13
+- NodeJS 12.x test run
+
+## [6.0.1] - 2022-10-25
+### Updated
+- cfpathcheck@6.0.0
+
+## [6.0.0] - 2022-10-25
+### Added
+- NodeJS v19 test run
+- eslint redos plugin
+- Gruntfile.js and shell script for testing the Grunt task
+
+### Updated
+- async import mechanism for esm version of cfpathcheck
+- actions/checkout@v3
+- github/codeql-action/init@v2
+- github/codeql-action/autobuild@v2
+- github/codeql-action/analyze@v2
+- actions/setup-node@v3
+- @snyk/protect@1.1041.0
+- cfpathcheck@5.1.0
+- eslint@8.26.0
+- eslint-config-xo@0.42.0
+- eslint-plugin-import@2.26.0
+- eslint-plugin-redos@4.4.1
+- grunt@1.5.3
+- ls-engines@0.7.0
+- prettier@2.7.1
+
+### Removed
+- Breaking: NodeJS support <12.17
+
 ## [5.0.0] - 2022-05-03
 ### Added
 - @snyk/protect
@@ -202,6 +252,10 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ### Added
 - TravisCI build badge.
 
+[7.0.1]: https://github.com/timbeadle/grunt-cfpathcheck/compare/7.0.0...7.0.1
+[7.0.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/6.0.1...7.0.0
+[6.0.1]: https://github.com/timbeadle/grunt-cfpathcheck/compare/6.0.0...6.0.1
+[6.0.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/5.0.0...6.0.0
 [5.0.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/4.2.1...5.0.0
 [4.2.1]: https://github.com/timbeadle/grunt-cfpathcheck/compare/4.2.0...4.2.1
 [4.2.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/4.1.0...4.2.0
