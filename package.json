@@ -14,7 +14,7 @@
   ],
   "main": "Gruntfile.js",
   "engines": {
-    "node": ">= 14.13"
+    "node": ">= 14.17"
   },
   "license": "MIT",
   "scripts": {
@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "@snyk/protect": "^1.1041.0",
-    "cfpathcheck": "^7.0.0"
+    "cfpathcheck": "^8.0.0"
   },
   "devDependencies": {
     "eslint": "8.36.0",
