@@ -11,5 +11,5 @@ plugins:
   - import
   - redos
 rules:
-  import/no-unresolved: [2, {commonjs: true, amd: true}]
+  import/no-unresolved: [ 2, { commonjs: true } ]
   redos/no-vulnerable: error
