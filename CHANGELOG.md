@@ -2,6 +2,16 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [8.0.0] - 2023-03-23
+### Updated
+- @snyk/protect@1.1125.0
+- cfpathcheck@8.1.0
+- prettier@2.8.6
+
+### Removed
+- Breaking: NodeJS support <14.17
+- `amd: true` from eslint `import/no-unresolved` rule
+
 ## [7.0.1] - 2023-03-20
 ### Updated
 - eslint@8.36.0
@@ -252,6 +262,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ### Added
 - TravisCI build badge.
 
+[8.0.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/7.0.1...8.0.0
 [7.0.1]: https://github.com/timbeadle/grunt-cfpathcheck/compare/7.0.0...7.0.1
 [7.0.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/6.0.1...7.0.0
 [6.0.1]: https://github.com/timbeadle/grunt-cfpathcheck/compare/6.0.0...6.0.1
