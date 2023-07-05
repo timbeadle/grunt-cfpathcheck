@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "@snyk/protect": "^1.1041.0",
-    "cfpathcheck": "^6.0.0"
+    "cfpathcheck": "^6.0.3"
   },
   "devDependencies": {
     "eslint": "8.26.0",
@@ -40,5 +40,9 @@
     "ls-engines": "0.7.0",
     "prettier": "2.7.1"
   },
-  "snyk": true
+  "snyk": true,
+  "volta": {
+    "node": "12.17.0",
+    "npm": "7.24.2"
+  }
 }
