@@ -2,6 +2,25 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [6.0.2] - 2023-07-05
+### Added
+- Node 12.17.x, 20.x test runs
+- Volta pin node@12.17.0, npm@7.24.2
+
+### Updated
+- Revert to require instead of import to bring in the cfpathcheck library
+- Base branches for nodejs and codeql-analysis workflows updated to main-6.x
+- cfpathcheck@6.0.3
+- eslint-config-xo@0.43.1
+- eslint-plugin-import@2.27.5
+- eslint-plugin-redos@4.4.5
+- eslint@8.44.0
+- grunt@1.6.1
+- prettier@3.0.0
+
+### Removed
+- Node 19.x test run
+
 ## [6.0.1] - 2022-10-25
 ### Updated
 - cfpathcheck@6.0.0
@@ -232,6 +251,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ### Added
 - TravisCI build badge.
 
+[6.0.2]: https://github.com/timbeadle/grunt-cfpathcheck/compare/6.0.1...6.0.2
 [6.0.1]: https://github.com/timbeadle/grunt-cfpathcheck/compare/6.0.0...6.0.1
 [6.0.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/5.0.0...6.0.0
 [5.0.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/4.2.1...5.0.0
