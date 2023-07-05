@@ -40,5 +40,8 @@
     "ls-engines": "0.7.0",
     "prettier": "2.7.1"
   },
-  "snyk": true
+  "snyk": true,
+  "volta": {
+    "node": "12.17.0"
+  }
 }
