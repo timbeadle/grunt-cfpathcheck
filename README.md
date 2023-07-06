@@ -102,5 +102,18 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 ## Release History
 See [CHANGELOG](https://github.com/timbeadle/grunt-cfpathcheck/blob/main/CHANGELOG.md).
 
+### Release support matrix
+
+| Release | Min Node ver. | Support     |
+| ------- | ------------- | ----------- |
+| 1.x     | 4.0.0         | Obsolete    |
+| 2.x     | 6.0.0         | Obsolete    |
+| 3.x     | 8.0.0         | Obsolete    |
+| 4.x     | 12.0.0        | Obsolete    |
+| 5.x     | 12.0.0        | Obsolete    |
+| 6.x     | 12.17.0       | Security    |
+| 7.x     | 14.13.0       | Maintenance |
+| 8.x     | 14.17.0       | Current     |
+
 ## License
 Copyright (c) 2015-2019 Tim Beadle. Licensed under the MIT license.
