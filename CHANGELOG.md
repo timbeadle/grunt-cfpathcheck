@@ -2,6 +2,19 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [8.0.1] - 2023-07-06
+### Added
+- Node 14.17.x, 20.x test runs
+- Volta pin node@14.17.6, npm@7.24.2
+- Renovate baseBrances config
+
+### Updated
+- @snyk/protect@1.1187.0
+- cfpathcheck@8.1.3
+- eslint@8.44.0
+- grunt@1.6.1
+- prettier@3.0.0
+
 ## [8.0.0] - 2023-03-23
 ### Updated
 - @snyk/protect@1.1125.0
@@ -262,6 +275,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ### Added
 - TravisCI build badge.
 
+[8.0.1]: https://github.com/timbeadle/grunt-cfpathcheck/compare/8.0.0...8.0.1
 [8.0.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/7.0.1...8.0.0
 [7.0.1]: https://github.com/timbeadle/grunt-cfpathcheck/compare/7.0.0...7.0.1
 [7.0.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/6.0.1...7.0.0
