@@ -6,7 +6,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ### Added
 - Node 14.17.x, 20.x test runs
 - Volta pin node@14.17.6, npm@7.24.2
-- Renovate baseBrances config
+- Renovate baseBranches config
 
 ### Updated
 - @snyk/protect@1.1187.0
