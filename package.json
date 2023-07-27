@@ -28,7 +28,7 @@
     "prepare": "npm run snyk-protect"
   },
   "dependencies": {
-    "@snyk/protect": "^1.1187.0",
+    "@snyk/protect": "^1.1196.0",
     "cfpathcheck": "^7.0.2"
   },
   "devDependencies": {
@@ -43,6 +43,6 @@
   "snyk": true,
   "volta": {
     "node": "14.13.1",
-    "npm": "6.14.18"
+    "npm": "7.24.2"
   }
 }
