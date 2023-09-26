@@ -2,6 +2,15 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [8.0.2] - 2023-09-26
+### Updated
+- @snyk/protect@1.1227.0
+- eslint@8.50.0
+- eslint-plugin-import@2.28.1
+- prettier@3.0.3
+- npm@8.19.4 (volta pin)
+- actions/checkout@v4
+
 ## [8.0.1] - 2023-07-06
 ### Added
 - Node 14.17.x, 20.x test runs
@@ -275,6 +284,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ### Added
 - TravisCI build badge.
 
+[8.0.2]: https://github.com/timbeadle/grunt-cfpathcheck/compare/8.0.1...8.0.2
 [8.0.1]: https://github.com/timbeadle/grunt-cfpathcheck/compare/8.0.0...8.0.1
 [8.0.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/7.0.1...8.0.0
 [7.0.1]: https://github.com/timbeadle/grunt-cfpathcheck/compare/7.0.0...7.0.1
