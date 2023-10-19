@@ -28,7 +28,7 @@
     "prepare": "npm run snyk-protect"
   },
   "dependencies": {
-    "@snyk/protect": "^1.1235.0",
+    "@snyk/protect": "^1.1236.0",
     "cfpathcheck": "^8.1.3"
   },
   "devDependencies": {
