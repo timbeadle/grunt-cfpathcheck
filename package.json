@@ -14,7 +14,7 @@
   ],
   "main": "Gruntfile.js",
   "engines": {
-    "node": ">= 18"
+    "node": ">= 20.8.1"
   },
   "license": "MIT",
   "scripts": {
@@ -42,7 +42,7 @@
   },
   "snyk": true,
   "volta": {
-    "node": "18.18.2",
+    "node": "20.8.1",
     "npm": "10.2.1"
   }
 }
