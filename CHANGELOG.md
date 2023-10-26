@@ -2,6 +2,20 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [7.0.3] - 2023-10-26
+### Added
+- **Dependabot**: versioning-strategy: increase
+
+### Updated
+- @snyk/protect@1.1237.0
+- cfpathcheck@7.0.3
+- eslint-plugin-import@2.29.0
+- eslint@8.52.0
+- prettier@3.0.3
+- **Volta**: npm@7.24.2
+- **Github**: actions/checkout@v4
+- **Github**: actions/setup-node@v4
+
 ## [7.0.2] - 2023-07-06
 ### Added
 - Node 14.13.x, 20.x test runs
@@ -269,6 +283,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ### Added
 - TravisCI build badge.
 
+[7.0.3]: https://github.com/timbeadle/grunt-cfpathcheck/compare/7.0.2...7.0.3
 [7.0.2]: https://github.com/timbeadle/grunt-cfpathcheck/compare/7.0.1...7.0.2
 [7.0.1]: https://github.com/timbeadle/grunt-cfpathcheck/compare/7.0.0...7.0.1
 [7.0.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/6.0.1...7.0.0
