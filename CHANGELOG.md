@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [10.0.1] - 2023-10-26
+### Updated
+- Release support matrix for v10.x
+
 ## [10.0.0] - 2023-10-26
 ### Added
 - .github/workflows/codeql.yml
@@ -312,6 +316,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ### Added
 - TravisCI build badge.
 
+[10.0.1]: https://github.com/timbeadle/grunt-cfpathcheck/compare/10.0.0...10.0.1
 [10.0.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/9.0.0...10.0.0
 [9.0.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/8.0.2...9.0.0
 [8.0.2]: https://github.com/timbeadle/grunt-cfpathcheck/compare/8.0.1...8.0.2
