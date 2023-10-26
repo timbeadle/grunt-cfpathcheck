@@ -112,9 +112,10 @@ See [CHANGELOG](https://github.com/timbeadle/grunt-cfpathcheck/blob/main/CHANGEL
 | 4.x     | 12.0.0        | Obsolete    |
 | 5.x     | 12.0.0        | Obsolete    |
 | 6.x     | 12.17.0       | Obsolete    |
-| 7.x     | 14.13.0       | Security    |
-| 8.x     | 14.17.0       | Maintenance |
-| 9.x     | 16.14.0       | Current     |
+| 7.x     | 14.13.0       | Obsolete    |
+| 8.x     | 14.17.0       | Obsolete    |
+| 9.x     | 16.14.0       | Maintenance |
+| 10.x    | 18.0.0        | Current     |
 
 ## License
 Copyright (c) 2015-2019 Tim Beadle. Licensed under the MIT license.
