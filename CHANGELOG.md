@@ -2,6 +2,24 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [10.0.0] - 2023-10-26
+### Added
+- .github/workflows/codeql.yml
+- versioning-strategy: increase
+
+### Updated
+- @snyk/protect@1.1237.0
+- cfpathcheck@10.0.0
+- eslint-plugin-import@2.29.0
+- eslint@8.52.0
+- **Volta**: node@18.18.2
+- **Volta**: npm@10.2.1
+- **Github**: actions/setup-node@v4
+
+### Removed
+- Breaking: NodeJS support <18
+- NodeJS 16.x test run
+
 ## [9.0.0] - 2023-09-26
 ### Updated
 - cfpathcheck@9.0.0
@@ -294,6 +312,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ### Added
 - TravisCI build badge.
 
+[10.0.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/9.0.0...10.0.0
 [9.0.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/8.0.2...9.0.0
 [8.0.2]: https://github.com/timbeadle/grunt-cfpathcheck/compare/8.0.1...8.0.2
 [8.0.1]: https://github.com/timbeadle/grunt-cfpathcheck/compare/8.0.0...8.0.1
