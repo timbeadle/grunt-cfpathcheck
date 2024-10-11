@@ -1,3 +1,4 @@
+/* eslint unicorn/filename-case: off */
 module.exports = function (grunt) {
 	'use strict';
 
