@@ -2,6 +2,23 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [11.0.0] - 2024-10-14
+### Added
+- xo, config & annotations
+
+### Updated
+- @snyk/protect@1.1293.1
+- cfpathcheck@11.0.0
+- ls-engines@0.9.3
+- Volta: pin node@20.18.0, npm@10.9.0
+
+### Removed
+- BREAKING: Minimum NodeJS version is now 20
+- eslint & config
+- eslint-config-xo
+- eslint-plugin-import
+- eslint-plugin-redos
+
 ## [10.1.0] - 2024-07-30
 ### Added
 - NodeJS v22 test run
@@ -355,6 +372,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ### Added
 - TravisCI build badge.
 
+[11.0.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/10.1.0...11.0.0
 [10.1.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/10.0.3...10.1.0
 [10.0.3]: https://github.com/timbeadle/grunt-cfpathcheck/compare/10.0.2...10.0.3
 [10.0.2]: https://github.com/timbeadle/grunt-cfpathcheck/compare/10.0.1...10.0.2
