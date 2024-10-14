@@ -2,6 +2,21 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [9.0.1] - 2024-10-14
+
+⚠️ **N.B.** This is the final release of the 9.x series. ⚠️
+
+### Updated
+- @snyk/protect@1.1293.1
+- actions/setup-node@v4
+- cfpathcheck@9.0.1
+- eslint-config-xo@0.45.0
+- eslint-plugin-import@2.31.0
+- eslint@8.57.1
+- ls-engines@0.9.3
+- prettier@3.3.3
+- (Volta) npm@9.9.3
+
 ## [9.0.0] - 2023-09-26
 ### Updated
 - cfpathcheck@9.0.0
@@ -294,6 +309,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ### Added
 - TravisCI build badge.
 
+[9.0.1]: https://github.com/timbeadle/grunt-cfpathcheck/compare/9.0.0...9.0.1
 [9.0.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/8.0.2...9.0.0
 [8.0.2]: https://github.com/timbeadle/grunt-cfpathcheck/compare/8.0.1...8.0.2
 [8.0.1]: https://github.com/timbeadle/grunt-cfpathcheck/compare/8.0.0...8.0.1
