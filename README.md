@@ -100,7 +100,7 @@ grunt.initConfig({
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## Release History
-See [CHANGELOG](https://github.com/timbeadle/grunt-cfpathcheck/blob/main/CHANGELOG.md).
+See [CHANGELOG](https://github.com/timbeadle/grunt-cfpathcheck/blob/main-10.x/CHANGELOG.md).
 
 ### Release support matrix
 
