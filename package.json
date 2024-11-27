@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "@snyk/protect": "^1.1294.1",
-    "cfpathcheck": "^10.1.1"
+    "cfpathcheck": "^10.1.2"
   },
   "devDependencies": {
     "grunt": "1.6.1",
