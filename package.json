@@ -28,13 +28,13 @@
     "prepare": "npm run snyk-protect"
   },
   "dependencies": {
-    "@snyk/protect": "^1.1295.2",
+    "@snyk/protect": "^1.1295.3",
     "cfpathcheck": "^11.0.0"
   },
   "devDependencies": {
     "grunt": "1.6.1",
     "ls-engines": "0.9.3",
-    "prettier": "3.5.0",
+    "prettier": "3.5.1",
     "xo": "^0.60.0"
   },
   "snyk": true,
