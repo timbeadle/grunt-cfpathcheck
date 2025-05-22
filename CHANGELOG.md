@@ -2,6 +2,25 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [10.2.0] - 2025-05-22
+
+**N.B.** This is the final release of 10.x
+
+### Added
+- xo & config
+
+### Updated
+- @snyk/protect@1.1297.1
+- cfpathcheck@10.2.0
+- ls-engines@0.9.3
+- prettier@3.5.3
+- engines.node: >= 18.20.8
+- volta.node: 18.20.8
+- volta.npm: 10.9.2
+
+### Removed
+- eslint & config
+
 ## [10.1.0] - 2024-07-30
 ### Added
 - NodeJS v22 test run
@@ -355,6 +374,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ### Added
 - TravisCI build badge.
 
+[10.2.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/10.1.0...10.2.0
 [10.1.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/10.0.3...10.1.0
 [10.0.3]: https://github.com/timbeadle/grunt-cfpathcheck/compare/10.0.2...10.0.3
 [10.0.2]: https://github.com/timbeadle/grunt-cfpathcheck/compare/10.0.1...10.0.2
