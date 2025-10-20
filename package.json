@@ -14,7 +14,7 @@
   ],
   "main": "Gruntfile.js",
   "engines": {
-    "node": ">= 20.19.4"
+    "node": ">= 20.19.5"
   },
   "license": "MIT",
   "scripts": {
@@ -28,18 +28,18 @@
     "prepare": "npm run snyk-protect"
   },
   "dependencies": {
-    "@snyk/protect": "^1.1299.0",
+    "@snyk/protect": "^1.1300.0",
     "cfpathcheck": "^11.1.0"
   },
   "devDependencies": {
     "grunt": "1.6.1",
     "ls-engines": "0.9.3",
     "prettier": "3.6.2",
-    "xo": "^1.2.2"
+    "xo": "^1.2.3"
   },
   "snyk": true,
   "volta": {
-    "node": "20.19.4",
-    "npm": "11.5.2"
+    "node": "20.19.5",
+    "npm": "11.6.2"
   }
 }
