@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "grunt": "1.6.1",
-    "ls-engines": "0.9.3",
+    "ls-engines": "0.9.4",
     "prettier": "3.7.4",
     "xo": "^1.2.3"
   },
