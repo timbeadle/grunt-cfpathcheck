@@ -2,6 +2,17 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [11.2.0] - 2026-01-28
+### Updated
+- @snyk/protect@1.1302.1
+- cfpathcheck@11.2.0
+- ls-engines@0.9.4
+- prettier@3.8.1
+- xo@1.2.3
+- (engines) node@20.20.0
+- (Volta) node@20.20.0
+- (Volta) npm@11.8.0
+
 ## [11.1.0] - 2025-05-22
 ### Added
 - NodeJS v24 test run
@@ -385,6 +396,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ### Added
 - TravisCI build badge.
 
+[11.2.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/11.1.0...11.2.0
 [11.1.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/11.0.0...11.1.0
 [11.0.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/10.1.0...11.0.0
 [10.1.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/10.0.3...10.1.0
