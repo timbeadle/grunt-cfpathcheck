@@ -1,5 +1,9 @@
-export default [
+const config = [
 	{
+		files: [
+			'Gruntfile.js',
+			'tasks/cfpathcheck.js',
+		],
 		rules: {
 			'arrow-parens': 0,
 			'n/prefer-global/process': 0,
@@ -10,3 +14,5 @@ export default [
 		},
 	},
 ];
+
+export default config;
