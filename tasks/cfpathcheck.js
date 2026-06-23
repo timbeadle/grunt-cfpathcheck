@@ -10,7 +10,7 @@ module.exports = function (grunt) {
 	'use strict';
 
 	// Please see the Grunt documentation for more information regarding task
-	// creation: http://gruntjs.com/creating-tasks
+	// creation: https://gruntjs.com/creating-tasks
 
 	grunt.registerMultiTask(
 		'cfpathcheck',
