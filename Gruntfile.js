@@ -1,4 +1,5 @@
-/* eslint unicorn/filename-case: off */
+/* eslint unicorn/filename-case: off -- Stops eslint complaining about the filename */
+
 module.exports = function (grunt) {
 	'use strict';
 
