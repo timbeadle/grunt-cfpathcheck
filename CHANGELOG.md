@@ -2,6 +2,21 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [11.2.1] - 2026-08-11
+
+### Fix
+
+- **package.json**: Update cfpathcheck to 11.4.2
+- **package-lock.json**: Update js-yaml to secure versions
+- **deps**: update dependency cfpathcheck to ^11.4.1
+- **deps**: update dependency @snyk/protect to ^1.1306.3
+- **deps**: update dependency @snyk/protect to ^1.1306.2
+- **deps**: update dependency @snyk/protect to ^1.1306.1
+- **deps**: update dependency cfpathcheck to ^11.4.0
+- **deps**: update dependency @snyk/protect to ^1.1305.2
+- **deps**: update dependency cfpathcheck to ^11.3.0
+- **deps**: update dependency @snyk/protect to ^1.1303.2
+
 ## [11.2.0] - 2026-01-28
 ### Updated
 - @snyk/protect@1.1302.1
@@ -396,6 +411,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ### Added
 - TravisCI build badge.
 
+[11.2.1]: https://github.com/timbeadle/grunt-cfpathcheck/compare/11.2.0...11.2.1
 [11.2.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/11.1.0...11.2.0
 [11.1.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/11.0.0...11.1.0
 [11.0.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/10.1.0...11.0.0
