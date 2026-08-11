@@ -2,6 +2,16 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [12.0.0] (2026-08-11)
+
+### BREAKING CHANGE
+
+- Removes NodeJS <22 support
+
+### Fix
+
+- **deps**: update dependency cfpathcheck to v12
+
 ## [11.2.1] - 2026-08-11
 
 ### Fix
@@ -411,6 +421,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ### Added
 - TravisCI build badge.
 
+[12.0.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/11.2.1...12.0.0
 [11.2.1]: https://github.com/timbeadle/grunt-cfpathcheck/compare/11.2.0...11.2.1
 [11.2.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/11.1.0...11.2.0
 [11.1.0]: https://github.com/timbeadle/grunt-cfpathcheck/compare/11.0.0...11.1.0
