@@ -35,7 +35,7 @@
     "grunt": "1.6.3",
     "ls-engines": "0.10.1",
     "prettier": "3.9.6",
-    "xo": "^4.0.0"
+    "xo": "^5.0.0"
   },
   "snyk": true,
   "volta": {
